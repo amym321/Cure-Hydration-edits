@@ -1,1 +1,631 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Cure-Header1.jpg","mobile_image":"shopify:\/\/shop_images\/Cure-Header1-mobile.jpg","text_position":"top_right","subheading":"","title":"Hydrating Electrolyte Mix","slide_text":"Science-backed ORS formula made with plant-based ingredients & no added sugar.","button_1_text":"Shop Now","button_1_link":"shopify:\/\/collections\/hydration","button_2_text":"","button_2_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#baaa9e","overlay_color":"#000000","overlay_opacity":0}},"691a4bcf-0496-4eb5-a30d-b5788cefa1b2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Coconut_Salt.jpg","mobile_image":"shopify:\/\/shop_images\/Coconut_Salt-Mobile.jpg","text_position":"bottom_left","subheading":"","title":"Made with nature's essential electrolytes from coconut water & pink Himalayan salt.","slide_text":"","button_1_text":"Learn More","button_1_link":"shopify:\/\/pages\/science-backed-hydration","button_2_text":"","button_2_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#baaa9e","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b","691a4bcf-0496-4eb5-a30d-b5788cefa1b2"],"settings":{"section_height":"auto","transition_type":"fade","autoplay":false,"cycle_speed":7,"background":"rgba(0,0,0,0)"}},"164201542823e3eefd":{"type":"logo-list-custom","blocks":{"1642015428b0f2282f-0":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Artboard_1cure-icons2.png","link":""}},"1642015428b0f2282f-1":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Artboard_2cure-icons2.png","link":""}},"1642015428b0f2282f-2":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Artboard_3cure-icons2.png","link":""}},"1642015428b0f2282f-3":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Artboard_4cure-icons2.png","link":""}},"1642015428b0f2282f-4":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Artboard_5cure-icons2.png","link":""}}},"block_order":["1642015428b0f2282f-0","1642015428b0f2282f-1","1642015428b0f2282f-2","1642015428b0f2282f-3","1642015428b0f2282f-4"],"settings":{"reveal_on_scroll":true,"title":"We should trust what we put in our bodies.","body_text":"It all starts here. We ensure quality standards are put in place so you know that our products contain clean and good-for-you ingredients.","stack_logos":false,"background":"#3e7b8f","text_color":"#ffffff","logo_background":"rgba(0,0,0,0)"}},"featured-collections":{"type":"featured-collections","blocks":{"collection-1":{"type":"collection","settings":{"collection":"hydration","label":"Hydration","button_text":"","button_url":""}},"623c1cd3-3e21-4d74-b022-3b09904b5c17":{"type":"collection","settings":{"collection":"energy","label":"Energy","button_text":"","button_url":""}}},"block_order":["collection-1","623c1cd3-3e21-4d74-b022-3b09904b5c17"],"settings":{"subheading":"","title":"Plant-based hydration for everyone.","title2":"Balanced energy when you need it most.","content":"","products_count":8,"products_per_row":3,"stack_products":false,"show_cta":false,"background":"#ffffff","text_color":"#baaa9e","button_background":"#ffffff","button_text_color":"#baaa9e"}},"1642353324ee7a7c6a":{"type":"custom-comparison-chart","settings":{"section_height":"large","image":"shopify:\/\/shop_images\/Cure-Water.jpg","title":"Hydrating Electrolyte Mix","content":"<p>Proper hydration can help you stay focused and alert. With 4x the electrolytes of leading sports drinks, Cure restores balance to your body so you can operate at 100%.<\/p>","text_width":"large","text_position":"top_left","chart_c1r2_value":"25","chart_c1r2_label":"calories","chart_c1r3_value":"0g","chart_c1r3_label":"added sugar","chart_c1r4_label":"Perfectly balanced electrolytes and plant-based ingredients","chart_c2r1_value":"Sports Drinks","chart_c2r2_value":"112","chart_c2r2_label":"calories","chart_c2r3_value":"27g","chart_c2r3_label":"added sugar","chart_c2r4_label":"Added sugar, low in electrolytes, and made with artificial ingredients","chart_c3r1_value":"Coconut Water","chart_c3r2_value":"120","chart_c3r2_label":"calories","chart_c3r3_value":"28g","chart_c3r3_label":"sugar","chart_c3r4_label":"Unbalanced electrolytes (low sodium, high sugar and potassium)","chart_c4r1_value":"Other Hydration Mixes","chart_c4r2_value":"45","chart_c4r2_label":"calories","chart_c4r3_value":"11g","chart_c4r3_label":"added sugar","chart_c4r4_label":"Synthetic ingredients and added sugars","chart_bottom_info":"Based on a 16oz serving","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"rgba(0,0,0,0)","overlay_opacity":10}},"163466717944ea241f":{"type":"press","blocks":{"9604c39c-49a2-41ca-bfee-161bc3ab18d0":{"type":"item","settings":{"logo":"shopify:\/\/shop_images\/hello_logo_600x_53b97ded-4cc5-496f-84f2-e4815f9eccdd.png","logo_width":100,"content":"\"Gwyneth Paltrow unveils 'miracle' health hacks to prevent illness.  Cure is an electrolyte powder that prevents dehydration without the added sugars of a sports drink.\""}},"163466717944ea241f-0":{"type":"item","settings":{"logo":"shopify:\/\/shop_images\/techcrunch-logo-white_5ebfd98c-724b-414d-a980-d4d11f81d1f3.png","logo_width":150,"content":"\"Now, more than ever, consumers are prioritizing health in their daily lives and looking for products that are not only effective but better-for-you.\""}},"8ac68aea-fd1a-4324-8e96-ed5ff247072d":{"type":"item","settings":{"logo":"shopify:\/\/shop_images\/popsugar-white_267eff70-d082-4e33-afb2-0719c2832f57.png","logo_width":150,"content":"\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""}},"dbb42680-f18f-43d8-a624-e080c83c0ec7":{"type":"item","settings":{"logo_width":100,"content":"Write some content about what they are saying about your store."}},"fef50134-66a4-4904-b749-bfcbdf24bd41":{"type":"item","settings":{"logo_width":100,"content":"Write some content about what they are saying about your store."}},"e352c9c7-f90f-4d07-acaf-04b6b88ea946":{"type":"item","settings":{"logo_width":100,"content":"Write some content about what they are saying about your store."}}},"block_order":["9604c39c-49a2-41ca-bfee-161bc3ab18d0","163466717944ea241f-0","8ac68aea-fd1a-4324-8e96-ed5ff247072d","dbb42680-f18f-43d8-a624-e080c83c0ec7","fef50134-66a4-4904-b749-bfcbdf24bd41","e352c9c7-f90f-4d07-acaf-04b6b88ea946"],"settings":{"reveal_on_scroll":false,"background":"#ffffff","text_color":"#baaa9e"}},"16390810401838be79":{"type":"image-with-text-overlay","settings":{"reveal_on_scroll":false,"section_height":"large","image":"shopify:\/\/shop_images\/211122_CL_Cure_10_HomeVibes_783.jpg","subheading":"","title":"Backed by <br> Science","content":"<p>Our products are scientifically proven to be effective.  Cure gives you everything you need and nothing more.<\/p>","button_text":"Learn More","button_link":"shopify:\/\/pages\/science-backed-hydration","link_style":"button","background_type":"full_width","text_width":"small","text_position":"top_right","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#baaa9e","overlay_color":"#ffffff","overlay_opacity":0}},"1639081552440f5ba3":{"type":"image-with-text-overlay","settings":{"reveal_on_scroll":false,"section_height":"large","image":"shopify:\/\/shop_images\/211122_CL_Cure_09_Kitchen_713_c7ab0c79-2c3e-4626-9114-a6508944ed67.jpg","subheading":"","title":"Powered <br> by Nature","content":"<p>Cure is the healthy, better-for-you option.  Our products are made with a blend of premium, plant-based ingredients and no added sugars.<\/p>","button_text":"Learn More","button_link":"shopify:\/\/pages\/science-backed-hydration","link_style":"button","background_type":"full_width","text_width":"small","text_position":"top_left","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#baaa9e","overlay_color":"#ffffff","overlay_opacity":0}},"1637089602f412eaf0":{"type":"rich-text","settings":{"subheading":"Subscribe & Save","title":"20% off or more when you subscribe","content":"<p>Save by getting Cure delivered to your door monthly<\/p>","button_text":"Subscribe Now","button_link":"shopify:\/\/pages\/subscribe","background_type":"boxed","text_width":"large","text_position":"center","text_alignment":"center","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"163821349540768c96":{"type":"text-with-icons","blocks":{"16382134953a149dda-2":{"type":"item","settings":{"icon":"picto-gift","title":"Samples & gifts","content":""}},"12f53df4-8d56-4ab0-84c8-82cb341cdc2b":{"type":"item","settings":{"icon":"picto-coupon","title":"Discount Every Purchase","content":""}},"16382134953a149dda-0":{"type":"item","settings":{"icon":"picto-box","title":"Free US shipping","content":""}},"69134fa9-0eac-447f-ad75-7f9b0f30aa74":{"type":"item","settings":{"icon":"picto-customer-support","custom_icon":"shopify:\/\/shop_images\/cancel_65e94a8c-49bd-45ee-9c8f-2ba303bcf456.png","title":"Skip or Cancel Anytime","content":""}},"16382134953a149dda-1":{"type":"item","settings":{"icon":"picto-chat","title":"Dedicated Support","content":""}}},"block_order":["16382134953a149dda-2","12f53df4-8d56-4ab0-84c8-82cb341cdc2b","16382134953a149dda-0","69134fa9-0eac-447f-ad75-7f9b0f30aa74","16382134953a149dda-1"],"settings":{"background":"#f5f2f1","text_color":"rgba(0,0,0,0)"}},"shop-the-look":{"type":"shop-the-look","blocks":{"look-1":{"type":"look","settings":{"image":"shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_be718468-ea18-4134-b8ef-10f268ae01c5.jpg","mobile_image":"shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_30d06307-d09c-4211-83ac-4d7e2731dc1a.jpg","dot_type":"normal","product_1":"berry-pomegranate","product_1_horizontal_position":26,"product_1_vertical_position":20,"product_1_horizontal_position_mobile":24,"product_1_vertical_position_mobile":45,"product_2":"grapefruit","product_2_horizontal_position":43,"product_2_vertical_position":73,"product_2_horizontal_position_mobile":27,"product_2_vertical_position_mobile":73,"product_3":"ginger-turmeric","product_3_horizontal_position":72,"product_3_vertical_position":54,"product_3_horizontal_position_mobile":75,"product_3_vertical_position_mobile":55}}},"block_order":["look-1"],"settings":{"reveal_on_scroll":false,"label":"Shop the looks"}},"timeline":{"type":"timeline","blocks":{"item-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/211122_CL_Cure_11_GroupExtra_818_7f2419bf-ba5b-4c92-89eb-e0de8f9ec976.jpg","label":"Hydration","title":"Hydration is the foundation of health. But science shows that staying hydrated often requires more than water alone. That’s why we made our Hydrating Electrolyte Mix.","content":"","button_text":"Shop Hydration","button_link":"shopify:\/\/collections\/hydration"}},"item-2":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/211122_CL_Cure_09_Kitchen_596.jpg","label":"Energy","title":"Caffeine is our go-to source of energy, whether we’re starting our day, working out, or hitting that afternoon slump. But your caffeine should be doing more than just waking you up. That’s why we made our Energizing Drink Mixes.","content":"","button_text":"Shop Energy","button_link":"shopify:\/\/collections\/energy"}}},"block_order":["item-1","item-2"],"settings":{"subheading":"","title":"Cure for what you need.","text_position":"bottom","background":"#baaa9e","text_color":"#ffffff","item_background":"#ffffff","item_text_color":"rgba(0,0,0,0)"}},"16346648411d27afc9":{"type":"multi-column","blocks":{"16346648411d27afc9-2":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Dr_Dana_Cohen2.jpg","image_border":"rgba(0,0,0,0)","title":"Dr. Dana Cohen","content":"<p>Dr. Dana Cohen has been practicing integrative medicine for the last 20 years. She is currently the Medical Director of Complete Wellness in Manhattan. She is the co-author of the book QUENCH: Beat Fatigue, Drop Weight, and Heal Your Body Through the New Science of Optimum Hydration.<\/p>","link_text":"","link_url":"","link_style":"link","text_alignment":"left"}},"16346648411d27afc9-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Brooke_Alpert_Headshot2.jpg","image_border":"rgba(0,0,0,0)","title":"Brooke Alpert","content":"<p>Brooke Alpert, M.S., R.D., C.D.N., is a nationally recognized nutrition expert and a best-selling author. She is the founder of B Nutritious, a private nutrition counseling and consulting practice in New York City. Brooke has been featured on Good Morning America, the Dr. Oz Show, the TODAY Show, and many other national television shows.<\/p>","link_text":"","link_url":"","link_style":"link","text_alignment":"left"}},"16346648411d27afc9-0":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Dr_Roshini_Raj5.jpg","image_border":"rgba(0,0,0,0)","title":"Dr. Roshini Raj","content":"<p>Dr. Roshini Raj is a board-certified gastroenterologist and attending physician at NYU Medical Center. Dr. Raj is a Medical Editor of Health Magazine, Dr. Oz core expert and regular contributor to the TODAY Show, CNN, FNC, Inside Edition and other national television shows.<\/p>","link_text":"","link_url":"","link_style":"button","text_alignment":"left"}}},"block_order":["16346648411d27afc9-2","16346648411d27afc9-1","16346648411d27afc9-0"],"settings":{"reveal_on_scroll":true,"stack_items":false,"subheading":"Our Medical Advisory Board","title":"Meet the doctors and nutritionists behind Cure.","content":"","column_alignment":"center","mobile_item_size":"large","desktop_item_size":"large","spacing":"loose","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"1634665833eba33a47":{"type":"gallery","disabled":true,"blocks":{"1634665833eba33a47-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Artboard_1CURE-REVIEW_b5ec1670-f37f-48d9-845f-c4bac4ccf812.png","caption":""}},"1634665833eba33a47-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Artboard_1_copyCURE-REVIEW_92e925f7-cae4-48b8-9222-81ab2e2097a0.png","caption":""}},"57745ee1-b65b-4d8e-b111-fa64989b9b11":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Artboard_1_copy_2CURE-REVIEW_f06b4f1f-5e84-4421-b494-7b8a3399c346.png","caption":""}}},"block_order":["1634665833eba33a47-2","1634665833eba33a47-1","57745ee1-b65b-4d8e-b111-fa64989b9b11"],"settings":{"subheading":"","title":"What they're saying...","show_arrows":false,"background":"#3e7b8f","text_color":"#ffffff"}},"1642176088107c40ad":{"type":"testimonials-custom","blocks":{"70d7f041-2f65-4401-aae2-33ed2a747f92":{"type":"text","settings":{"heading":"Pre- and post-workout","text":"\"I had it after a tough workout and it allowed me to sustain my post-workout energy and I didn't feel as depleted as I normally do!! Can't wait to incorporate Cure into my routine.\"","author":"- Shana, <br> Atlanta, GA","image":"shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"}},"6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a":{"type":"text","settings":{"heading":"Before you start your day","text":"\"Cure immediately makes me feel rejuvenated. It's now the first thing I drink at the start of every day - even before my morning cup of coffee which is saying something! I don't know how I ever started my day without it!!\"","author":"- Suzie, <br> Brooklyn, NY","image":"shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"}},"d35a39d1-56c5-42aa-b6ce-7a437bda3cd1":{"type":"text","settings":{"heading":"After the after-party","text":"\"After a night of drinking I felt totally recovered. It was like being hooked up to an IV. Unreal\"","author":"- John, <br> Charlotte, NC","image":"shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"}}},"block_order":["70d7f041-2f65-4401-aae2-33ed2a747f92","6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a","d35a39d1-56c5-42aa-b6ce-7a437bda3cd1"],"settings":{"subheading":"","title":"What they're saying...","show_arrows":false,"background":"#3e7b8f","text_color":"#ffffff"}},"blog-posts":{"type":"blog-posts","disabled":true,"settings":{"blog":"blog","subheading":"Stay up-to-date","title":"Blog posts","articles_count":4,"stack_mobile":false,"show_category":true,"show_excerpt":false,"background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["slideshow","164201542823e3eefd","featured-collections","1642353324ee7a7c6a","163466717944ea241f","16390810401838be79","1639081552440f5ba3","1637089602f412eaf0","163821349540768c96","shop-the-look","timeline","16346648411d27afc9","1634665833eba33a47","1642176088107c40ad","blog-posts"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cure-Header1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Cure-Header1-mobile.jpg",
+            "text_position": "top_right",
+            "subheading": "",
+            "title": "Hydrating Electrolyte Mix",
+            "slide_text": "Science-backed ORS formula made with plant-based ingredients & no added sugar.",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/hydration",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#baaa9e",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "691a4bcf-0496-4eb5-a30d-b5788cefa1b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coconut_Salt.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Coconut_Salt-Mobile.jpg",
+            "text_position": "bottom_left",
+            "subheading": "",
+            "title": "Made with nature's essential electrolytes from coconut water & pink Himalayan salt.",
+            "slide_text": "",
+            "button_1_text": "Learn More",
+            "button_1_link": "shopify:\/\/pages\/science-backed-hydration",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#baaa9e",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b",
+        "691a4bcf-0496-4eb5-a30d-b5788cefa1b2"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 7,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "164201542823e3eefd": {
+      "type": "logo-list-custom",
+      "blocks": {
+        "1642015428b0f2282f-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_1cure-icons2.png",
+            "link": ""
+          }
+        },
+        "1642015428b0f2282f-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_2cure-icons2.png",
+            "link": ""
+          }
+        },
+        "1642015428b0f2282f-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_3cure-icons2.png",
+            "link": ""
+          }
+        },
+        "1642015428b0f2282f-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_4cure-icons2.png",
+            "link": ""
+          }
+        },
+        "1642015428b0f2282f-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Artboard_5cure-icons2.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642015428b0f2282f-0",
+        "1642015428b0f2282f-1",
+        "1642015428b0f2282f-2",
+        "1642015428b0f2282f-3",
+        "1642015428b0f2282f-4"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "title": "We should trust what we put in our bodies.",
+        "body_text": "It all starts here. We ensure quality standards are put in place so you know that our products contain clean and good-for-you ingredients.",
+        "stack_logos": false,
+        "background": "#3e7b8f",
+        "text_color": "#ffffff",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "hydration",
+            "label": "Hydration",
+            "button_text": "",
+            "button_url": ""
+          }
+        },
+        "623c1cd3-3e21-4d74-b022-3b09904b5c17": {
+          "type": "collection",
+          "settings": {
+            "collection": "energy",
+            "label": "Energy",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "623c1cd3-3e21-4d74-b022-3b09904b5c17"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Plant-based hydration for everyone.",
+        "title2": "Balanced energy when you need it most.",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 3,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "#baaa9e",
+        "button_background": "#ffffff",
+        "button_text_color": "#baaa9e"
+      }
+    },
+    "1642353324ee7a7c6a": {
+      "type": "custom-comparison-chart",
+      "settings": {
+        "section_height": "large",
+        "image": "shopify:\/\/shop_images\/Cure-Water.jpg",
+        "title": "Hydrating Electrolyte Mix",
+        "content": "<p>Proper hydration can help you stay focused and alert. With 4x the electrolytes of leading sports drinks, Cure restores balance to your body so you can operate at 100%.<\/p>",
+        "text_width": "large",
+        "text_position": "top_left",
+        "chart_c1r2_value": "25",
+        "chart_c1r2_label": "calories",
+        "chart_c1r3_value": "0g",
+        "chart_c1r3_label": "added sugar",
+        "chart_c1r4_label": "Perfectly balanced electrolytes and plant-based ingredients",
+        "chart_c2r1_value": "Sports Drinks",
+        "chart_c2r2_value": "112",
+        "chart_c2r2_label": "calories",
+        "chart_c2r3_value": "27g",
+        "chart_c2r3_label": "added sugar",
+        "chart_c2r4_label": "Added sugar, low in electrolytes, and made with artificial ingredients",
+        "chart_c3r1_value": "Coconut Water",
+        "chart_c3r2_value": "120",
+        "chart_c3r2_label": "calories",
+        "chart_c3r3_value": "28g",
+        "chart_c3r3_label": "sugar",
+        "chart_c3r4_label": "Unbalanced electrolytes (low sodium, high sugar and potassium)",
+        "chart_c4r1_value": "Other Hydration Mixes",
+        "chart_c4r2_value": "45",
+        "chart_c4r2_label": "calories",
+        "chart_c4r3_value": "11g",
+        "chart_c4r3_label": "added sugar",
+        "chart_c4r4_label": "Synthetic ingredients and added sugars",
+        "chart_bottom_info": "Based on a 16oz serving",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_opacity": 10
+      }
+    },
+    "163466717944ea241f": {
+      "type": "press",
+      "blocks": {
+        "9604c39c-49a2-41ca-bfee-161bc3ab18d0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/hello_logo_600x_53b97ded-4cc5-496f-84f2-e4815f9eccdd.png",
+            "logo_width": 100,
+            "content": "\"Gwyneth Paltrow unveils 'miracle' health hacks to prevent illness.  Cure is an electrolyte powder that prevents dehydration without the added sugars of a sports drink.\""
+          }
+        },
+        "163466717944ea241f-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/techcrunch-logo-white_5ebfd98c-724b-414d-a980-d4d11f81d1f3.png",
+            "logo_width": 150,
+            "content": "\"Now, more than ever, consumers are prioritizing health in their daily lives and looking for products that are not only effective but better-for-you.\""
+          }
+        },
+        "8ac68aea-fd1a-4324-8e96-ed5ff247072d": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/popsugar-white_267eff70-d082-4e33-afb2-0719c2832f57.png",
+            "logo_width": 150,
+            "content": "\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""
+          }
+        },
+        "dbb42680-f18f-43d8-a624-e080c83c0ec7": {
+          "type": "item",
+          "settings": {
+            "logo_width": 100,
+            "content": "Write some content about what they are saying about your store."
+          }
+        },
+        "fef50134-66a4-4904-b749-bfcbdf24bd41": {
+          "type": "item",
+          "settings": {
+            "logo_width": 100,
+            "content": "Write some content about what they are saying about your store."
+          }
+        },
+        "e352c9c7-f90f-4d07-acaf-04b6b88ea946": {
+          "type": "item",
+          "settings": {
+            "logo_width": 100,
+            "content": "Write some content about what they are saying about your store."
+          }
+        }
+      },
+      "block_order": [
+        "9604c39c-49a2-41ca-bfee-161bc3ab18d0",
+        "163466717944ea241f-0",
+        "8ac68aea-fd1a-4324-8e96-ed5ff247072d",
+        "dbb42680-f18f-43d8-a624-e080c83c0ec7",
+        "fef50134-66a4-4904-b749-bfcbdf24bd41",
+        "e352c9c7-f90f-4d07-acaf-04b6b88ea946"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background": "#ffffff",
+        "text_color": "#baaa9e"
+      }
+    },
+    "16390810401838be79": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "large",
+        "image": "shopify:\/\/shop_images\/211122_CL_Cure_10_HomeVibes_783.jpg",
+        "subheading": "",
+        "title": "Backed by <br> Science",
+        "content": "<p>Our products are scientifically proven to be effective.  Cure gives you everything you need and nothing more.<\/p>",
+        "button_text": "Learn More",
+        "button_link": "shopify:\/\/pages\/science-backed-hydration",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "top_right",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#baaa9e",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "1639081552440f5ba3": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "large",
+        "image": "shopify:\/\/shop_images\/211122_CL_Cure_09_Kitchen_713_c7ab0c79-2c3e-4626-9114-a6508944ed67.jpg",
+        "subheading": "",
+        "title": "Powered <br> by Nature",
+        "content": "<p>Cure is the healthy, better-for-you option.  Our products are made with a blend of premium, plant-based ingredients and no added sugars.<\/p>",
+        "button_text": "Learn More",
+        "button_link": "shopify:\/\/pages\/science-backed-hydration",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "top_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#baaa9e",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "1637089602f412eaf0": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Subscribe & Save",
+        "title": "20% off or more when you subscribe",
+        "content": "<p>Save by getting Cure delivered to your door monthly<\/p>",
+        "button_text": "Subscribe Now",
+        "button_link": "shopify:\/\/pages\/subscribe",
+        "background_type": "boxed",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "163821349540768c96": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16382134953a149dda-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "title": "Samples & gifts",
+            "content": ""
+          }
+        },
+        "12f53df4-8d56-4ab0-84c8-82cb341cdc2b": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "title": "Discount Every Purchase",
+            "content": ""
+          }
+        },
+        "16382134953a149dda-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "title": "Free US shipping",
+            "content": ""
+          }
+        },
+        "69134fa9-0eac-447f-ad75-7f9b0f30aa74": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_65e94a8c-49bd-45ee-9c8f-2ba303bcf456.png",
+            "title": "Skip or Cancel Anytime",
+            "content": ""
+          }
+        },
+        "16382134953a149dda-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-chat",
+            "title": "Dedicated Support",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "16382134953a149dda-2",
+        "12f53df4-8d56-4ab0-84c8-82cb341cdc2b",
+        "16382134953a149dda-0",
+        "69134fa9-0eac-447f-ad75-7f9b0f30aa74",
+        "16382134953a149dda-1"
+      ],
+      "settings": {
+        "background": "#f5f2f1",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop-the-look": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look-1": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_be718468-ea18-4134-b8ef-10f268ae01c5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_30d06307-d09c-4211-83ac-4d7e2731dc1a.jpg",
+            "dot_type": "normal",
+            "product_1": "berry-pomegranate",
+            "product_1_horizontal_position": 26,
+            "product_1_vertical_position": 20,
+            "product_1_horizontal_position_mobile": 24,
+            "product_1_vertical_position_mobile": 45,
+            "product_2": "grapefruit",
+            "product_2_horizontal_position": 43,
+            "product_2_vertical_position": 73,
+            "product_2_horizontal_position_mobile": 27,
+            "product_2_vertical_position_mobile": 73,
+            "product_3": "ginger-turmeric",
+            "product_3_horizontal_position": 72,
+            "product_3_vertical_position": 54,
+            "product_3_horizontal_position_mobile": 75,
+            "product_3_vertical_position_mobile": 55
+          }
+        }
+      },
+      "block_order": [
+        "look-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "timeline": {
+      "type": "timeline",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_11_GroupExtra_818_7f2419bf-ba5b-4c92-89eb-e0de8f9ec976.jpg",
+            "label": "Hydration",
+            "title": "Hydration is the foundation of health. But science shows that staying hydrated often requires more than water alone. That’s why we made our Hydrating Electrolyte Mix.",
+            "content": "",
+            "button_text": "Shop Hydration",
+            "button_link": "shopify:\/\/collections\/hydration"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_09_Kitchen_596.jpg",
+            "label": "Energy",
+            "title": "Caffeine is our go-to source of energy, whether we’re starting our day, working out, or hitting that afternoon slump. But your caffeine should be doing more than just waking you up. That’s why we made our Energizing Drink Mixes.",
+            "content": "",
+            "button_text": "Shop Energy",
+            "button_link": "shopify:\/\/collections\/energy"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Cure for what you need.",
+        "text_position": "bottom",
+        "background": "#baaa9e",
+        "text_color": "#ffffff",
+        "item_background": "#ffffff",
+        "item_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16346648411d27afc9": {
+      "type": "multi-column",
+      "blocks": {
+        "16346648411d27afc9-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dr_Dana_Cohen2.jpg",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Dr. Dana Cohen",
+            "content": "<p>Dr. Dana Cohen has been practicing integrative medicine for the last 20 years. She is currently the Medical Director of Complete Wellness in Manhattan. She is the co-author of the book QUENCH: Beat Fatigue, Drop Weight, and Heal Your Body Through the New Science of Optimum Hydration.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        },
+        "16346648411d27afc9-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brooke_Alpert_Headshot2.jpg",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Brooke Alpert",
+            "content": "<p>Brooke Alpert, M.S., R.D., C.D.N., is a nationally recognized nutrition expert and a best-selling author. She is the founder of B Nutritious, a private nutrition counseling and consulting practice in New York City. Brooke has been featured on Good Morning America, the Dr. Oz Show, the TODAY Show, and many other national television shows.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        },
+        "16346648411d27afc9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dr_Roshini_Raj5.jpg",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Dr. Roshini Raj",
+            "content": "<p>Dr. Roshini Raj is a board-certified gastroenterologist and attending physician at NYU Medical Center. Dr. Raj is a Medical Editor of Health Magazine, Dr. Oz core expert and regular contributor to the TODAY Show, CNN, FNC, Inside Edition and other national television shows.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "button",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16346648411d27afc9-2",
+        "16346648411d27afc9-1",
+        "16346648411d27afc9-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Our Medical Advisory Board",
+        "title": "Meet the doctors and nutritionists behind Cure.",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1634665833eba33a47": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "1634665833eba33a47-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1CURE-REVIEW_b5ec1670-f37f-48d9-845f-c4bac4ccf812.png",
+            "caption": ""
+          }
+        },
+        "1634665833eba33a47-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1_copyCURE-REVIEW_92e925f7-cae4-48b8-9222-81ab2e2097a0.png",
+            "caption": ""
+          }
+        },
+        "57745ee1-b65b-4d8e-b111-fa64989b9b11": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1_copy_2CURE-REVIEW_f06b4f1f-5e84-4421-b494-7b8a3399c346.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634665833eba33a47-2",
+        "1634665833eba33a47-1",
+        "57745ee1-b65b-4d8e-b111-fa64989b9b11"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "What they're saying...",
+        "show_arrows": false,
+        "background": "#3e7b8f",
+        "text_color": "#ffffff"
+      }
+    },
+    "1642176088107c40ad": {
+      "type": "testimonials-custom",
+      "blocks": {
+        "70d7f041-2f65-4401-aae2-33ed2a747f92": {
+          "type": "text",
+          "settings": {
+            "heading": "Pre- and post-workout",
+            "text": "\"I had it after a tough workout and it allowed me to sustain my post-workout energy and I didn't feel as depleted as I normally do!! Can't wait to incorporate Cure into my routine.\"",
+            "author": "- Shana, <br> Atlanta, GA",
+            "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
+          }
+        },
+        "6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a": {
+          "type": "text",
+          "settings": {
+            "heading": "Before you start your day",
+            "text": "\"Cure immediately makes me feel rejuvenated. It's now the first thing I drink at the start of every day - even before my morning cup of coffee which is saying something! I don't know how I ever started my day without it!!\"",
+            "author": "- Suzie, <br> Brooklyn, NY",
+            "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
+          }
+        },
+        "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1": {
+          "type": "text",
+          "settings": {
+            "heading": "After the after-party",
+            "text": "\"After a night of drinking I felt totally recovered. It was like being hooked up to an IV. Unreal\"",
+            "author": "- John, <br> Charlotte, NC",
+            "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "70d7f041-2f65-4401-aae2-33ed2a747f92",
+        "6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a",
+        "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "What they're saying...",
+        "show_arrows": false,
+        "background": "#3e7b8f",
+        "text_color": "#ffffff"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "blog": "blog",
+        "subheading": "Stay up-to-date",
+        "title": "Blog posts",
+        "articles_count": 4,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "164201542823e3eefd",
+    "featured-collections",
+    "1642353324ee7a7c6a",
+    "163466717944ea241f",
+    "16390810401838be79",
+    "1639081552440f5ba3",
+    "1637089602f412eaf0",
+    "163821349540768c96",
+    "shop-the-look",
+    "timeline",
+    "16346648411d27afc9",
+    "1634665833eba33a47",
+    "1642176088107c40ad",
+    "blog-posts"
+  ]
+}
