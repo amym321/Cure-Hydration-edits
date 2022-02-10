@@ -16088,18 +16088,18 @@ shopify-payment-terms {
              }
            }
            
-           
-             
-             
-      
-      
-      
-      
-    
 
-    
+/*************************/
+/**** code added - AM ****/
+/*************************/
 
-    
+/* vertical center quotes */
+.press-list__item	{
+  position: relative;
+}
 
-    
-    
+.press-list__item blockquote {
+  top: 50%;
+  transform: translateY(-50%);
+}
+

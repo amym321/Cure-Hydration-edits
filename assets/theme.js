@@ -1923,58 +1923,59 @@
   };
   window.customElements.define("loading-bar", LoadingBar);
 
+  //REMOVE animation of split-lines on Press section - AM
   // js/custom-element/ui/split-lines.js
-  var SplitLines = class extends HTMLElement {
-    connectedCallback() {
-      this.originalContent = this.textContent;
-      this.lastWidth = window.innerWidth;
-      this.hasBeenSplitted = false;
-      window.addEventListener("resize", this._onResize.bind(this));
-    }
-    [Symbol.asyncIterator]() {
-      return {
-        splitPromise: this.split.bind(this),
-        index: 0,
-        async next() {
-          const lines = await this.splitPromise();
-          if (this.index !== lines.length) {
-            return { done: false, value: lines[this.index++] };
-          } else {
-            return { done: true };
-          }
-        }
-      };
-    }
-    split(force = false) {
-      if (this.childElementCount > 0 && !force) {
-        return Promise.resolve(Array.from(this.children));
-      }
-      this.hasBeenSplitted = true;
-      return new Promise((resolve) => {
-        requestAnimationFrame(() => {
-          this.innerHTML = this.originalContent.replace(/./g, "<span>$&</span>").replace(/\s/g, " ");
-          const bounds = {};
-          Array.from(this.children).forEach((child) => {
-            const rect = child.getBoundingClientRect().top;
-            bounds[rect] = (bounds[rect] || "") + child.textContent;
-          });
-          this.innerHTML = Object.values(bounds).map((item) => `<span ${this.hasAttribute("reveal") && !force ? "reveal" : ""} ${this.hasAttribute("reveal-visibility") && !force ? "reveal-visibility" : ""} style="display: block">${item.trim()}</span>`).join("");
-          this.style.opacity = this.hasAttribute("reveal") ? 1 : null;
-          this.style.visibility = this.hasAttribute("reveal-visibility") ? "visible" : null;
-          resolve(Array.from(this.children));
-        });
-      });
-    }
-    async _onResize() {
-      if (this.lastWidth === window.innerWidth || !this.hasBeenSplitted) {
-        return;
-      }
-      await this.split(true);
-      this.dispatchEvent(new CustomEvent("split-lines:re-split", { bubbles: true }));
-      this.lastWidth = window.innerWidth;
-    }
-  };
-  window.customElements.define("split-lines", SplitLines);
+  // var SplitLines = class extends HTMLElement {
+  //   connectedCallback() {
+  //     this.originalContent = this.textContent;
+  //     this.lastWidth = window.innerWidth;
+  //     this.hasBeenSplitted = false;
+  //     window.addEventListener("resize", this._onResize.bind(this));
+  //   }
+  //   [Symbol.asyncIterator]() {
+  //     return {
+  //       splitPromise: this.split.bind(this),
+  //       index: 0,
+  //       async next() {
+  //         const lines = await this.splitPromise();
+  //         if (this.index !== lines.length) {
+  //           return { done: false, value: lines[this.index++] };
+  //         } else {
+  //           return { done: true };
+  //         }
+  //       }
+  //     };
+  //   }
+  //   split(force = false) {
+  //     if (this.childElementCount > 0 && !force) {
+  //       return Promise.resolve(Array.from(this.children));
+  //     }
+  //     this.hasBeenSplitted = true;
+  //     return new Promise((resolve) => {
+  //       requestAnimationFrame(() => {
+  //         this.innerHTML = this.originalContent.replace(/./g, "<span>$&</span>").replace(/\s/g, " ");
+  //         const bounds = {};
+  //         Array.from(this.children).forEach((child) => {
+  //           const rect = child.getBoundingClientRect().top;
+  //           bounds[rect] = (bounds[rect] || "") + child.textContent;
+  //         });
+  //         this.innerHTML = Object.values(bounds).map((item) => `<span ${this.hasAttribute("reveal") && !force ? "reveal" : ""} ${this.hasAttribute("reveal-visibility") && !force ? "reveal-visibility" : ""} style="display: block">${item.trim()}</span>`).join("");
+  //         this.style.opacity = this.hasAttribute("reveal") ? 1 : null;
+  //         this.style.visibility = this.hasAttribute("reveal-visibility") ? "visible" : null;
+  //         resolve(Array.from(this.children));
+  //       });
+  //     });
+  //   }
+  //   async _onResize() {
+  //     if (this.lastWidth === window.innerWidth || !this.hasBeenSplitted) {
+  //       return;
+  //     }
+  //     await this.split(true);
+  //     this.dispatchEvent(new CustomEvent("split-lines:re-split", { bubbles: true }));
+  //     this.lastWidth = window.innerWidth;
+  //   }
+  // };
+  // window.customElements.define("split-lines", SplitLines);
 
   // js/custom-element/ui/popover.js
   var PopoverContent = class extends OpenableElement {
@@ -4479,11 +4480,14 @@
           visibility: ["visible", "hidden"],
           clipPath: ["inset(0 0 0 0)", "inset(0 0 100% 0)"],
           transform: ["translateY(0)", "translateY(100%)"]
-        }, {
-          duration: 350,
-          delay: 60 * index,
-          easing: "cubic-bezier(0.68, 0.00, 0.77, 0.00)"
-        });
+        }
+        // REMOVE transition of quote block on Press section - AM
+        // , {
+        //   duration: 350,
+        //   delay: 60 * index,
+        //   easing: "cubic-bezier(0.68, 0.00, 0.77, 0.00)"
+        // }
+        );
       })));
       shouldAnimate ? animation.play() : animation.finish();
       await animation.finished;
@@ -4496,11 +4500,14 @@
           visibility: ["hidden", "visible"],
           clipPath: ["inset(0 0 100% 0)", "inset(0 0 0px 0)"],
           transform: ["translateY(100%)", "translateY(0)"]
-        }, {
-          duration: 550,
-          delay: 120 * index,
-          easing: "cubic-bezier(0.23, 1, 0.32, 1)"
-        });
+        }
+        // REMOVE transition of quote block on Press section - AM
+        //  , {
+        //   duration: 550,
+        //   delay: 120 * index,
+        //   easing: "cubic-bezier(0.23, 1, 0.32, 1)"
+        // }
+        );
       })));
       shouldAnimate ? animation.play() : animation.finish();
       return animation.finished;
