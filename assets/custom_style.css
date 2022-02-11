@@ -188,8 +188,13 @@
 .slideshow-buttons {
   position: absolute; 
   transform: translateY(-750%);
-  z-index: 20 !important;
+  z-index: 20 ;
   width: 100% !important;
+}
+@media screen and (max-width: 1000px) {
+  .slideshow-buttons {
+    z-index: 0 !important;
+  }
 }
 @media screen and (min-width: 1200px) {
   .slideshow-buttons {
