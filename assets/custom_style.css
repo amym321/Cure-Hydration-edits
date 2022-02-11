@@ -167,3 +167,42 @@
   .our-values_num{font-size: 50px; line-height: 40px; padding-right:10px; width:70px;}  
   .our-values_content { width: calc(100% - 70px);}
 }
+
+
+
+/*************************/
+/**** code added - AM ****/
+/*************************/
+
+/* vertical center quotes in Press section */
+.press-list__item	{
+  position: relative;
+}
+
+.press-list__item blockquote {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* slideshow arrows */
+.slideshow-buttons {
+  position: absolute; 
+  transform: translateY(-750%);
+  z-index: 20 !important;
+  width: 100% !important;
+}
+@media screen and (min-width: 1200px) {
+  .slideshow-buttons {
+    transform: translateY(-800%);
+  }
+}
+
+.slideshow-buttons button {
+  color:white;
+  border-color: #ffffff00;
+  background-color: #ffffff00;
+}
+.slideshow-button-right {
+  position: absolute;
+  right: 0px;
+}

@@ -3188,6 +3188,9 @@
   // js/custom-element/section/slideshow/slideshow-item.js
   var SlideshowItem = class extends HTMLElement {
     async connectedCallback() {
+      // code added - am. shlideshow arrows
+      this.prevNextButtons = this.querySelector("prev-next-buttons");
+      
       this._pendingAnimations = [];
       this.addEventListener("split-lines:re-split", (event) => {
         Array.from(event.target.children).forEach((line) => line.style.visibility = this.selected ? "visible" : "hidden");
@@ -3296,6 +3299,11 @@
         return getComputedStyle(image.parentElement).display !== "none";
       });
     }
+    // code added - am. shlideshow arrows
+    _onItemSelected(index) {
+      this.prevNextButtons.isPrevDisabled = index === 0;
+      this.prevNextButtons.isNextDisabled = index === this.listItemElements.length - 1;
+      }
   };
   window.customElements.define("slide-show-item", SlideshowItem);
 
@@ -3333,6 +3341,9 @@
         }
         this.addEventListener("swiperight", this.previous.bind(this));
         this.addEventListener("swipeleft", this.next.bind(this));
+        // code added - am. shlideshow arrows
+        this.addEventListener("prev-next:prev", this.previous.bind(this));
+        this.addEventListener("prev-next:next", this.next.bind(this));
         this.addEventListener("page-dots:changed", (event) => this.select(event.detail.index));
         this._blockVerticalScroll();
       }

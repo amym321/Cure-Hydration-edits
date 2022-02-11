@@ -171,6 +171,19 @@
     </div>
 
     {%- if section.blocks.size > 1 -%}
+
+    <!-- code added - am. added arrows  -->
+      <prev-next-buttons class="slideshow-buttons testimonial-list__prev-next-buttons prev-next-buttons prev-next-buttons--row hidden-phone">
+        <button class="testimonial-list__arrow prev-next-button prev-next-button--prev">
+          <span class="visually-hidden">{{ 'general.accessibility.previous' | t }}</span>
+          {%- include 'icon' with 'product-tab-left', direction_aware: true, width: 14, height: 20 -%}
+        </button>
+        <button class="slideshow-button-right testimonial-list__arrow prev-next-button prev-next-button--next">
+          <span class="visually-hidden">{{ 'general.accessibility.next' | t }}</span>
+          {%- include 'icon' with 'product-tab-right', direction_aware: true, width: 14, height: 20 -%}
+        </button>
+      </prev-next-buttons>
+
       <page-dots {% if section.settings.autoplay %}animation-timer{% endif %} class="slideshow__nav container">
         {%- for block in section.blocks -%}
           <button class="slideshow__progress-bar" aria-controls="block-{{ section.id }}-{{ block.id }}" {% if forloop.first %}aria-current="true"{% endif%}>
