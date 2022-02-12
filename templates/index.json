@@ -591,13 +591,22 @@
             "text": "“I’m a mom of three and always on the go! I use Cure any time of day when I need to get more water in. It makes drinking enough water in a day a breeze and it tastes great!\"",
             "author": "– Jess, <br> Groveland, CA"
           }
+        },
+        "64106702-784d-44b2-b7a4-414ae518549c": {
+          "type": "text",
+          "settings": {
+            "heading": "FOR FITNESS ENTHUSIASTS",
+            "text": "\"I love Cure! When I stumbled upon it, I was so relieved to finally find a hydration mix that wasn't full of junk and replenished my body with electrolytes. So many other options out there are full of added sugar and other questionable ingredients...no thank you! I'm an avid Peloton user, workout most days, chase 2 toddlers around every day, and I can't recommend this brand enough.\"",
+            "author": "– Megan, <br> Knoxville, TN"
+          }
         }
       },
       "block_order": [
         "70d7f041-2f65-4401-aae2-33ed2a747f92",
         "6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a",
         "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1",
-        "803e2ec4-93cd-44be-b9ef-f1cfd24387d7"
+        "803e2ec4-93cd-44be-b9ef-f1cfd24387d7",
+        "64106702-784d-44b2-b7a4-414ae518549c"
       ],
       "settings": {
         "subheading": "",
