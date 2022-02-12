@@ -27,6 +27,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cure-header4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/cure-headermobile4.jpg",
             "text_position": "top_right",
             "subheading": "",
             "title": "Hydration is more than just water",
@@ -51,10 +52,10 @@
             "subheading": "",
             "title": "Caffeine should do more than just wake you up",
             "slide_text": "Energizing Tea Mixes with electrolytes and 55MG natural caffeine.",
-            "button_1_text": "Shop Matcha",
-            "button_1_link": "shopify:\/\/products\/matcha",
-            "button_2_text": "Shop Peach",
-            "button_2_link": "shopify:\/\/products\/peach",
+            "button_1_text": "Shop energy",
+            "button_1_link": "shopify:\/\/collections\/energy",
+            "button_2_text": "",
+            "button_2_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#baaa9e",
@@ -553,45 +554,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "1634665833eba33a47": {
-      "type": "gallery",
-      "disabled": true,
-      "blocks": {
-        "1634665833eba33a47-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1CURE-REVIEW_b5ec1670-f37f-48d9-845f-c4bac4ccf812.png",
-            "caption": ""
-          }
-        },
-        "1634665833eba33a47-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_copyCURE-REVIEW_92e925f7-cae4-48b8-9222-81ab2e2097a0.png",
-            "caption": ""
-          }
-        },
-        "57745ee1-b65b-4d8e-b111-fa64989b9b11": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_copy_2CURE-REVIEW_f06b4f1f-5e84-4421-b494-7b8a3399c346.png",
-            "caption": ""
-          }
-        }
-      },
-      "block_order": [
-        "1634665833eba33a47-2",
-        "1634665833eba33a47-1",
-        "57745ee1-b65b-4d8e-b111-fa64989b9b11"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "What they're saying...",
-        "show_arrows": false,
-        "background": "#3e7b8f",
-        "text_color": "#ffffff"
-      }
-    },
     "1642176088107c40ad": {
       "type": "testimonials-custom",
       "blocks": {
@@ -635,21 +597,6 @@
         "background": "#3e7b8f",
         "text_color": "#ffffff"
       }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "disabled": true,
-      "settings": {
-        "blog": "blog",
-        "subheading": "Stay up-to-date",
-        "title": "Blog posts",
-        "articles_count": 4,
-        "stack_mobile": false,
-        "show_category": true,
-        "show_excerpt": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -665,8 +612,6 @@
     "shop-the-look",
     "timeline",
     "16346648411d27afc9",
-    "1634665833eba33a47",
-    "1642176088107c40ad",
-    "blog-posts"
+    "1642176088107c40ad"
   ]
 }
