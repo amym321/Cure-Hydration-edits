@@ -10900,6 +10900,7 @@ input:checked + .popover__choice-label::after,
   .logo-list__list {
     --logos-per-row: 3;
     --logos-gap: 16px;
+    margin-left: 100px;
   }
 
   /* Scroller variation */
