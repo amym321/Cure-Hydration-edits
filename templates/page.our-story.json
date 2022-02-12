@@ -147,6 +147,65 @@
         "title": "Our Values"
       }
     },
+    "164469906732db0da9": {
+      "type": "multi-column",
+      "blocks": {
+        "1644699067e6599872-0": {
+          "type": "item",
+          "settings": {
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Simple",
+            "content": "<p>Easy-to-keep health rituals you can feel great about. Because it’s the small, consistent habits that make the biggest impact<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        },
+        "1644699067e6599872-1": {
+          "type": "item",
+          "settings": {
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Effective",
+            "content": "<p>Science-backed products founded on the WHO formula for dehydration. Cure is the better choice for everyday life.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        },
+        "1644699067e6599872-2": {
+          "type": "item",
+          "settings": {
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Clean",
+            "content": "<p>No added sugar, no artificial junk. Plant-based, non-gmo, vegan, gluten free, no bad stuff. Only the best ingredients for you and earth.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1644699067e6599872-0",
+        "1644699067e6599872-1",
+        "1644699067e6599872-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Our Values",
+        "content": "",
+        "column_alignment": "left",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "1639173550ee092baa": {
       "type": "rich-text",
       "settings": {
@@ -203,6 +262,7 @@
     "163917582848fee845",
     "16391745459c0ec2ea",
     "16430022133f43b3d0",
+    "164469906732db0da9",
     "1639173550ee092baa",
     "1638307034472bbb69"
   ]
