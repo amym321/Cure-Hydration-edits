@@ -101,43 +101,51 @@
     "164201542823e3eefd": {
       "type": "logo-list-custom",
       "blocks": {
+        "7c8c03b7-5dfe-4610-ac56-ea0cc41dcc1c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_SCIENCEBACKED_WHITE_TEXT.png",
+            "link": ""
+          }
+        },
         "1642015428b0f2282f-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_1cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_PLANT_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-1": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_2cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NONGMO_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-2": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_3cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NOSUGAR_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-3": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_4cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_VEGAN_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_5cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_GLUTENFREE_WHITE_TEXT.png",
             "link": ""
           }
         }
       },
       "block_order": [
+        "7c8c03b7-5dfe-4610-ac56-ea0cc41dcc1c",
         "1642015428b0f2282f-0",
         "1642015428b0f2282f-1",
         "1642015428b0f2282f-2",
