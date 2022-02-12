@@ -47,6 +47,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Cure-header3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobile-header-3.jpg",
             "text_position": "top_left",
             "subheading": "",
             "title": "Caffeine should do more than just wake you up",
@@ -58,7 +59,7 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#baaa9e",
-            "overlay_color": "#6e3e10",
+            "overlay_color": "#864202",
             "overlay_opacity": 12
           }
         }
