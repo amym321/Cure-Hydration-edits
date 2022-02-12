@@ -1299,6 +1299,7 @@ p a:not(.button),
   .text-container .h6,
   .rte h6 {
     margin: 40px 0 16px;
+    font-size: 30px;
   }
 
   .blockquote,
