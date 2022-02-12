@@ -46,7 +46,7 @@
   justify-content: space-between;
 }
 .bottom_content_left{
-  width:calc(90% - 220px);
+  width:calc(80% - 220px);
 }
 .bottom_content_right{
   width:220px;
