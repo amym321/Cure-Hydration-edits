@@ -76,6 +76,24 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "1644700306f50a6a93": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Or email us at <a href=\"mailto:ambassador@curehydration.com\" target=\"_blank\"><span style=\"text-decoration:underline\">ambassador@curehydration.com<\/span><\/a><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f5f2f1",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -83,6 +101,7 @@
     "1643694401cd65e0f1",
     "contact-form",
     "16436946298c318668",
-    "1642996267f470eb1b"
+    "1642996267f470eb1b",
+    "1644700306f50a6a93"
   ]
 }
