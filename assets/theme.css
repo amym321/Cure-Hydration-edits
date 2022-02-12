@@ -15860,7 +15860,7 @@ shopify-payment-terms {
         	width: auto;
         }
           .custom-chart-table{
-            width: 95vw;
+            width: 75vw;
             backdrop-filter: blur(20px);
             box-shadow: inset 0 0 0 2px #fff;
             border: none;
