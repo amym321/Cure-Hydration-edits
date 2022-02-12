@@ -254,22 +254,6 @@
             "content": "\"Gwyneth Paltrow’s miracle health hack — an electrolyte powder that prevents dehydration without the added sugars of a sports drink.\""
           }
         },
-        "163466717944ea241f-0": {
-          "type": "item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/techcrunch-logo-white_5ebfd98c-724b-414d-a980-d4d11f81d1f3.png",
-            "logo_width": 150,
-            "content": "\"Now, more than ever, consumers are prioritizing health in their daily lives and looking for products that are not only effective but better-for-you.\""
-          }
-        },
-        "8ac68aea-fd1a-4324-8e96-ed5ff247072d": {
-          "type": "item",
-          "settings": {
-            "logo": "shopify:\/\/shop_images\/popsugar-white_267eff70-d082-4e33-afb2-0719c2832f57.png",
-            "logo_width": 150,
-            "content": "\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""
-          }
-        },
         "dbb42680-f18f-43d8-a624-e080c83c0ec7": {
           "type": "item",
           "settings": {
@@ -283,14 +267,30 @@
             "logo_width": 100,
             "content": "2022 Women’s Health Fitness Awards Winner - Named Best Hydrating Drink Mix"
           }
+        },
+        "8ac68aea-fd1a-4324-8e96-ed5ff247072d": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/popsugar-white_267eff70-d082-4e33-afb2-0719c2832f57.png",
+            "logo_width": 150,
+            "content": "\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""
+          }
+        },
+        "163466717944ea241f-0": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/techcrunch-logo-white_5ebfd98c-724b-414d-a980-d4d11f81d1f3.png",
+            "logo_width": 150,
+            "content": "\"Now, more than ever, consumers are prioritizing health in their daily lives and looking for products that are not only effective but better-for-you.\""
+          }
         }
       },
       "block_order": [
         "9604c39c-49a2-41ca-bfee-161bc3ab18d0",
-        "163466717944ea241f-0",
-        "8ac68aea-fd1a-4324-8e96-ed5ff247072d",
         "dbb42680-f18f-43d8-a624-e080c83c0ec7",
-        "fef50134-66a4-4904-b749-bfcbdf24bd41"
+        "fef50134-66a4-4904-b749-bfcbdf24bd41",
+        "8ac68aea-fd1a-4324-8e96-ed5ff247072d",
+        "163466717944ea241f-0"
       ],
       "settings": {
         "reveal_on_scroll": false,
