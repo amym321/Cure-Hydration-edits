@@ -9,10 +9,30 @@
             "image": "shopify:\/\/shop_images\/Cure-Header1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Cure-Header1-mobile.jpg",
             "text_position": "top_right",
-            "subheading": "",
-            "title": "Hydrating Electrolyte Mix",
-            "slide_text": "Science-backed ORS formula made with plant-based ingredients & no added sugar.",
+            "subheading": "Easy, daily health rituals that you can feel good about.",
+            "title": "Plant-based functional drink mixes",
+            "slide_text": "",
             "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop-all",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#baaa9e",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "12199dd5-c204-47cb-813c-7371ba95b851": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cure-header4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/cure-headermobile4.jpg",
+            "text_position": "top_right",
+            "subheading": "",
+            "title": "Hydration is more than just water",
+            "slide_text": "Hydrating Electrolyte Mixes with no added sugar.",
+            "button_1_text": "Shop hydration",
             "button_1_link": "shopify:\/\/collections\/hydration",
             "button_2_text": "",
             "button_2_link": "",
@@ -21,6 +41,26 @@
             "button_text_color": "#baaa9e",
             "overlay_color": "#000000",
             "overlay_opacity": 0
+          }
+        },
+        "c88cc155-9034-4fdc-bb1c-33b9b394a1a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cure-header3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobile-header-3.jpg",
+            "text_position": "top_left",
+            "subheading": "",
+            "title": "Caffeine should do more than just wake you up",
+            "slide_text": "Energizing Tea Mixes with electrolytes and 55MG natural caffeine.",
+            "button_1_text": "Shop energy",
+            "button_1_link": "shopify:\/\/collections\/energy",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#baaa9e",
+            "overlay_color": "#864202",
+            "overlay_opacity": 12
           }
         },
         "691a4bcf-0496-4eb5-a30d-b5788cefa1b2": {
@@ -46,11 +86,13 @@
       },
       "block_order": [
         "3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b",
+        "12199dd5-c204-47cb-813c-7371ba95b851",
+        "c88cc155-9034-4fdc-bb1c-33b9b394a1a2",
         "691a4bcf-0496-4eb5-a30d-b5788cefa1b2"
       ],
       "settings": {
         "section_height": "auto",
-        "transition_type": "sweep",
+        "transition_type": "fade",
         "autoplay": true,
         "cycle_speed": 7,
         "background": "rgba(0,0,0,0)"
@@ -59,43 +101,51 @@
     "164201542823e3eefd": {
       "type": "logo-list-custom",
       "blocks": {
+        "7c8c03b7-5dfe-4610-ac56-ea0cc41dcc1c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_SCIENCEBACKED_WHITE_TEXT.png",
+            "link": ""
+          }
+        },
         "1642015428b0f2282f-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_1cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_PLANT_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-1": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_2cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NONGMO_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-2": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_3cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NOSUGAR_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-3": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_4cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_VEGAN_WHITE_TEXT.png",
             "link": ""
           }
         },
         "1642015428b0f2282f-4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_5cure-icons2.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_GLUTENFREE_WHITE_TEXT.png",
             "link": ""
           }
         }
       },
       "block_order": [
+        "7c8c03b7-5dfe-4610-ac56-ea0cc41dcc1c",
         "1642015428b0f2282f-0",
         "1642015428b0f2282f-1",
         "1642015428b0f2282f-2",
@@ -140,8 +190,8 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "Plant-based hydration for everyone.",
-        "title2": "Balanced energy when you need it most.",
+        "title": "Science-backed, plant-based hydration.",
+        "title2": "Balanced energy with an electrolyte boost.",
         "content": "",
         "products_count": 8,
         "products_per_row": 3,
@@ -159,7 +209,7 @@
         "section_height": "large",
         "image": "shopify:\/\/shop_images\/Cure-Water.jpg",
         "title": "Hydrating Electrolyte Mix",
-        "content": "<p>Proper hydration can help you stay focused and alert. With 4x the electrolytes of leading sports drinks, Cure restores balance to your body so you can operate at 100%.<\/p>",
+        "content": "<p>Hydration is the foundation of health. With 4x the electrolytes of leading sports drinks, Cure restores balance to your body so you can operate at 100%.<\/p>",
         "text_width": "large",
         "text_position": "top_left",
         "chart_c1r2_value": "25",
@@ -201,15 +251,23 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/hello_logo_600x_53b97ded-4cc5-496f-84f2-e4815f9eccdd.png",
             "logo_width": 100,
-            "content": "\"Gwyneth Paltrow unveils 'miracle' health hacks to prevent illness.  Cure is an electrolyte powder that prevents dehydration without the added sugars of a sports drink.\""
+            "content": "\"Gwyneth Paltrow’s miracle health hack — an electrolyte powder that prevents dehydration without the added sugars of a sports drink.\""
           }
         },
-        "163466717944ea241f-0": {
+        "dbb42680-f18f-43d8-a624-e080c83c0ec7": {
           "type": "item",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/techcrunch-logo-white_5ebfd98c-724b-414d-a980-d4d11f81d1f3.png",
-            "logo_width": 150,
-            "content": "\"Now, more than ever, consumers are prioritizing health in their daily lives and looking for products that are not only effective but better-for-you.\""
+            "logo": "shopify:\/\/shop_images\/marthastewart-logo.png",
+            "logo_width": 100,
+            "content": "\"Cure really is the best—their beverages meet the criteria of thirst-quenching and healthy and, as an ORS, they are scientifically proven to hydrate at a cellular level\""
+          }
+        },
+        "fef50134-66a4-4904-b749-bfcbdf24bd41": {
+          "type": "item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/womenshealth_logo.png",
+            "logo_width": 100,
+            "content": "2022 Women’s Health Fitness Awards Winner - Best Hydrating Drink Mix"
           }
         },
         "8ac68aea-fd1a-4324-8e96-ed5ff247072d": {
@@ -220,35 +278,21 @@
             "content": "\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""
           }
         },
-        "dbb42680-f18f-43d8-a624-e080c83c0ec7": {
+        "163466717944ea241f-0": {
           "type": "item",
           "settings": {
-            "logo_width": 100,
-            "content": "Write some content about what they are saying about your store."
-          }
-        },
-        "fef50134-66a4-4904-b749-bfcbdf24bd41": {
-          "type": "item",
-          "settings": {
-            "logo_width": 100,
-            "content": "Write some content about what they are saying about your store."
-          }
-        },
-        "e352c9c7-f90f-4d07-acaf-04b6b88ea946": {
-          "type": "item",
-          "settings": {
-            "logo_width": 100,
-            "content": "Write some content about what they are saying about your store."
+            "logo": "shopify:\/\/shop_images\/techcrunch-logo-white_5ebfd98c-724b-414d-a980-d4d11f81d1f3.png",
+            "logo_width": 150,
+            "content": "\"Now, more than ever, consumers are prioritizing health in their daily lives and looking for products that are not only effective but better-for-you.\""
           }
         }
       },
       "block_order": [
         "9604c39c-49a2-41ca-bfee-161bc3ab18d0",
-        "163466717944ea241f-0",
-        "8ac68aea-fd1a-4324-8e96-ed5ff247072d",
         "dbb42680-f18f-43d8-a624-e080c83c0ec7",
         "fef50134-66a4-4904-b749-bfcbdf24bd41",
-        "e352c9c7-f90f-4d07-acaf-04b6b88ea946"
+        "8ac68aea-fd1a-4324-8e96-ed5ff247072d",
+        "163466717944ea241f-0"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -442,7 +486,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "Cure for what you need.",
+        "title": "The Cure Routine.",
         "text_position": "bottom",
         "background": "#baaa9e",
         "text_color": "#ffffff",
@@ -512,80 +556,81 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "1634665833eba33a47": {
-      "type": "gallery",
-      "disabled": true,
-      "blocks": {
-        "1634665833eba33a47-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1CURE-REVIEW_b5ec1670-f37f-48d9-845f-c4bac4ccf812.png",
-            "caption": ""
-          }
-        },
-        "1634665833eba33a47-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_copyCURE-REVIEW_92e925f7-cae4-48b8-9222-81ab2e2097a0.png",
-            "caption": ""
-          }
-        },
-        "57745ee1-b65b-4d8e-b111-fa64989b9b11": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_copy_2CURE-REVIEW_f06b4f1f-5e84-4421-b494-7b8a3399c346.png",
-            "caption": ""
-          }
-        }
-      },
-      "block_order": [
-        "1634665833eba33a47-2",
-        "1634665833eba33a47-1",
-        "57745ee1-b65b-4d8e-b111-fa64989b9b11"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "What they're saying...",
-        "show_arrows": false,
-        "background": "#3e7b8f",
-        "text_color": "#ffffff"
-      }
-    },
     "1642176088107c40ad": {
       "type": "testimonials-custom",
       "blocks": {
         "70d7f041-2f65-4401-aae2-33ed2a747f92": {
           "type": "text",
           "settings": {
-            "heading": "Pre- and post-workout",
-            "text": "\"I had it after a tough workout and it allowed me to sustain my post-workout energy and I didn't feel as depleted as I normally do!! Can't wait to incorporate Cure into my routine.\"",
-            "author": "- Shana, <br> Atlanta, GA",
-            "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
+            "heading": "FOR YOUR DAILY ROUTINE",
+            "text": "“While I incorporated Cure into my routine as a fitness instructor and athlete, it was an absolute game changer for pregnancy and now breastfeeding! I love that it tastes amazing and is low in sugar. Highly recommend including this product in your daily routine, especially if you struggle with hydration!”",
+            "author": "– Jacquie, <br> New York, NY",
+            "image": "shopify:\/\/shop_images\/Abbie_Crane_f45961da-f608-4323-971d-9a56a1bc6efd.jpg"
           }
         },
         "6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a": {
           "type": "text",
           "settings": {
-            "heading": "Before you start your day",
-            "text": "\"Cure immediately makes me feel rejuvenated. It's now the first thing I drink at the start of every day - even before my morning cup of coffee which is saying something! I don't know how I ever started my day without it!!\"",
-            "author": "- Suzie, <br> Brooklyn, NY",
-            "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
+            "heading": "FOR WORKOUTS",
+            "text": "“I use Cure pre\/intra\/post workout. It keeps me hydrated, and the variety of flavors makes it much more enjoyable. The little packets are also easy to keep in my gym bag and virtually take up no space.”",
+            "author": "– Dennis, <br>Buffalo Grove, IL",
+            "image": "shopify:\/\/shop_images\/Dennis_Katzman_70c0154d-0489-44f8-b95b-c7363646bac4.jpg"
           }
         },
         "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1": {
           "type": "text",
           "settings": {
-            "heading": "After the after-party",
-            "text": "\"After a night of drinking I felt totally recovered. It was like being hooked up to an IV. Unreal\"",
-            "author": "- John, <br> Charlotte, NC",
-            "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
+            "heading": "FOR HIGH ALTITUDES",
+            "text": "\"Cure is my go-to electrolyte mix for all outdoor activities but mainly for when I’m in the desert. The dry Utah conditions deplete my energy all around, and having the instant packets on hand helps keep me hydrated. I typically drink one right after any activity. I love that Cure has no added sugar as well. 5 stars!\"",
+            "author": "– Alicia, <br> Salt Lake City, UT",
+            "image": "shopify:\/\/shop_images\/Alicia_Baker_3351281e-76cc-466c-9f7c-c6c3882243bc.jpg"
+          }
+        },
+        "803e2ec4-93cd-44be-b9ef-f1cfd24387d7": {
+          "type": "text",
+          "settings": {
+            "heading": "FOR BUSY MOMS",
+            "text": "“I’m a mom of three and always on the go! I use Cure any time of day when I need to get more water in. It makes drinking enough water in a day a breeze and it tastes great!\"",
+            "author": "– Jess, <br> Groveland, CA",
+            "image": "shopify:\/\/shop_images\/Jess_Crow_218aeb98-bbdb-4cab-a67c-2eba52b58f5b.jpg"
+          }
+        },
+        "64106702-784d-44b2-b7a4-414ae518549c": {
+          "type": "text",
+          "settings": {
+            "heading": "FOR FITNESS ENTHUSIASTS",
+            "text": "\"I love Cure! When I stumbled upon it, I was so relieved to finally find a hydration mix that wasn't full of junk and replenished my body with electrolytes. So many other options out there are full of added sugar and other questionable ingredients...no thank you! I'm an avid Peloton user, workout most days, chase 2 toddlers around every day, and I can't recommend this brand enough.\"",
+            "author": "– Megan, <br> Knoxville, TN",
+            "image": "shopify:\/\/shop_images\/Megan_Rodgers_560e50ab-c842-46e7-b01d-46fb3f4ae925.jpg"
+          }
+        },
+        "8a699963-45a7-4edc-a4b0-2b221aeafeee": {
+          "type": "text",
+          "settings": {
+            "heading": "FOR WARMER CLIMATES",
+            "text": "“I live in sunny California and enjoy spending my time outside and exercising. I feel the difference in my energy level when I'm fully hydrated. Cure is the only electrolyte I’ve ever liked! They had me at coconut water and no sugar added!”",
+            "author": "– Abbie, <br> San Clemente, CA",
+            "image": "shopify:\/\/shop_images\/Abbie_Crane_f45961da-f608-4323-971d-9a56a1bc6efd.jpg"
+          }
+        },
+        "5e1c6914-b492-4704-af32-d770cac21b3e": {
+          "type": "text",
+          "settings": {
+            "heading": "FOR PREGNANT WOMEN",
+            "text": "\"Hydration is important during all stages of life but even more important during pregnancy. Water often isn't enough to keep us adequately hydrated and I feel good knowing the ingredients in Cure are not only safe for me but also for my growing baby. Staying hydrated can help with morning sickness, swelling, and even regular bowel movements. I look forward to drinking it everyday!\"",
+            "author": "– Brittany, <br> Spring, TX",
+            "image": "shopify:\/\/shop_images\/Alicia_Baker_3351281e-76cc-466c-9f7c-c6c3882243bc.jpg"
           }
         }
       },
       "block_order": [
         "70d7f041-2f65-4401-aae2-33ed2a747f92",
         "6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a",
-        "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1"
+        "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1",
+        "803e2ec4-93cd-44be-b9ef-f1cfd24387d7",
+        "64106702-784d-44b2-b7a4-414ae518549c",
+        "8a699963-45a7-4edc-a4b0-2b221aeafeee",
+        "5e1c6914-b492-4704-af32-d770cac21b3e"
       ],
       "settings": {
         "subheading": "",
@@ -593,21 +638,6 @@
         "show_arrows": false,
         "background": "#3e7b8f",
         "text_color": "#ffffff"
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "disabled": true,
-      "settings": {
-        "blog": "blog",
-        "subheading": "Stay up-to-date",
-        "title": "Blog posts",
-        "articles_count": 4,
-        "stack_mobile": false,
-        "show_category": true,
-        "show_excerpt": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -624,8 +654,6 @@
     "shop-the-look",
     "timeline",
     "16346648411d27afc9",
-    "1634665833eba33a47",
-    "1642176088107c40ad",
-    "blog-posts"
+    "1642176088107c40ad"
   ]
 }
