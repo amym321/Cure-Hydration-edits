@@ -23,26 +23,6 @@
             "overlay_opacity": 0
           }
         },
-        "691a4bcf-0496-4eb5-a30d-b5788cefa1b2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Coconut_Salt.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Coconut_Salt-Mobile.jpg",
-            "text_position": "bottom_left",
-            "subheading": "",
-            "title": "Made with nature's essential electrolytes from coconut water & pink Himalayan salt.",
-            "slide_text": "",
-            "button_1_text": "Learn More",
-            "button_1_link": "shopify:\/\/pages\/science-backed-hydration",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#baaa9e",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "c88cc155-9034-4fdc-bb1c-33b9b394a1a2": {
           "type": "image",
           "settings": {
@@ -62,12 +42,32 @@
             "overlay_color": "#864202",
             "overlay_opacity": 12
           }
+        },
+        "691a4bcf-0496-4eb5-a30d-b5788cefa1b2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coconut_Salt.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Coconut_Salt-Mobile.jpg",
+            "text_position": "bottom_left",
+            "subheading": "",
+            "title": "Made with nature's essential electrolytes from coconut water & pink Himalayan salt.",
+            "slide_text": "",
+            "button_1_text": "Learn More",
+            "button_1_link": "shopify:\/\/pages\/science-backed-hydration",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#baaa9e",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b",
-        "691a4bcf-0496-4eb5-a30d-b5788cefa1b2",
-        "c88cc155-9034-4fdc-bb1c-33b9b394a1a2"
+        "c88cc155-9034-4fdc-bb1c-33b9b394a1a2",
+        "691a4bcf-0496-4eb5-a30d-b5788cefa1b2"
       ],
       "settings": {
         "section_height": "auto",
