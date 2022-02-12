@@ -47,7 +47,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Cure-header3.jpg",
-            "text_position": "top_left",
+            "text_position": "bottom_right",
             "subheading": "",
             "title": "Caffeine should do more than just wake you up",
             "slide_text": "Energizing Tea Mixes with electrolytes and 55MG natural caffeine.",
