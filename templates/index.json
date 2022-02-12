@@ -274,21 +274,14 @@
           "type": "item",
           "settings": {
             "logo_width": 100,
-            "content": "\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""
+            "content": "\"Cure really is the best—their beverages meet the criteria of thirst-quenching and healthy and, as an ORS, they are scientifically proven to hydrate at a cellular level\""
           }
         },
         "fef50134-66a4-4904-b749-bfcbdf24bd41": {
           "type": "item",
           "settings": {
             "logo_width": 100,
-            "content": "\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""
-          }
-        },
-        "e352c9c7-f90f-4d07-acaf-04b6b88ea946": {
-          "type": "item",
-          "settings": {
-            "logo_width": 100,
-            "content": "\"Whether you need a refreshing boost of hydration or need to handle a hangover, Cure has got your back.\""
+            "content": "2022 Women’s Health Fitness Awards Winner <br> Named Best Hydrating Drink Mix"
           }
         }
       },
@@ -297,8 +290,7 @@
         "163466717944ea241f-0",
         "8ac68aea-fd1a-4324-8e96-ed5ff247072d",
         "dbb42680-f18f-43d8-a624-e080c83c0ec7",
-        "fef50134-66a4-4904-b749-bfcbdf24bd41",
-        "e352c9c7-f90f-4d07-acaf-04b6b88ea946"
+        "fef50134-66a4-4904-b749-bfcbdf24bd41"
       ],
       "settings": {
         "reveal_on_scroll": false,
