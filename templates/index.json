@@ -560,35 +560,44 @@
         "70d7f041-2f65-4401-aae2-33ed2a747f92": {
           "type": "text",
           "settings": {
-            "heading": "Pre- and post-workout",
-            "text": "\"I had it after a tough workout and it allowed me to sustain my post-workout energy and I didn't feel as depleted as I normally do!! Can't wait to incorporate Cure into my routine.\"",
-            "author": "- Shana, <br> Atlanta, GA",
+            "heading": "FOR YOUR DAILY ROUTINE",
+            "text": "“While I incorporated Cure into my routine as a fitness instructor and athlete, it was an absolute game changer for pregnancy and now breastfeeding! I love that it tastes amazing and is low in sugar. Highly recommend including this product in your daily routine, especially if you struggle with hydration!”",
+            "author": "– Jacquie, <br> New York, NY",
             "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
           }
         },
         "6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a": {
           "type": "text",
           "settings": {
-            "heading": "Before you start your day",
-            "text": "\"Cure immediately makes me feel rejuvenated. It's now the first thing I drink at the start of every day - even before my morning cup of coffee which is saying something! I don't know how I ever started my day without it!!\"",
-            "author": "- Suzie, <br> Brooklyn, NY",
+            "heading": "FOR WORKOUTS",
+            "text": "“I use Cure pre\/intra\/post workout. It keeps me hydrated, and the variety of flavors makes it much more enjoyable. The little packets are also easy to keep in my gym bag and virtually take up no space.”",
+            "author": "– Dennis, <br>Buffalo Grove, IL",
             "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
           }
         },
         "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1": {
           "type": "text",
           "settings": {
-            "heading": "After the after-party",
-            "text": "\"After a night of drinking I felt totally recovered. It was like being hooked up to an IV. Unreal\"",
-            "author": "- John, <br> Charlotte, NC",
+            "heading": "FOR HIGH ALTITUDES",
+            "text": "\"Cure is my go-to electrolyte mix for all outdoor activities but mainly for when I’m in the desert. The dry Utah conditions deplete my energy all around, and having the instant packets on hand helps keep me hydrated. I typically drink one right after any activity. I love that Cure has no added sugar as well. 5 stars!\"",
+            "author": "– Alicia, <br> Salt Lake City, UT",
             "image": "shopify:\/\/shop_images\/Cure-Review-Placeholder-Image.jpg"
+          }
+        },
+        "803e2ec4-93cd-44be-b9ef-f1cfd24387d7": {
+          "type": "text",
+          "settings": {
+            "heading": "FOR BUSY MOMS",
+            "text": "“I’m a mom of three and always on the go! I use Cure any time of day when I need to get more water in. It makes drinking enough water in a day a breeze and it tastes great!\"",
+            "author": "– Jess, <br> Groveland, CA"
           }
         }
       },
       "block_order": [
         "70d7f041-2f65-4401-aae2-33ed2a747f92",
         "6c735bfa-022b-4ee4-9ce7-a4b3bbb6b00a",
-        "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1"
+        "d35a39d1-56c5-42aa-b6ce-7a437bda3cd1",
+        "803e2ec4-93cd-44be-b9ef-f1cfd24387d7"
       ],
       "settings": {
         "subheading": "",
