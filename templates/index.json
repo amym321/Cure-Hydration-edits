@@ -51,13 +51,13 @@
             "subheading": "",
             "title": "Caffeine should do more than just wake you up",
             "slide_text": "Energizing Tea Mixes with electrolytes and 55MG natural caffeine.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
+            "button_1_text": "Shop Matcha",
+            "button_1_link": "shopify:\/\/products\/matcha",
+            "button_2_text": "Shop Peach",
+            "button_2_link": "shopify:\/\/products\/peach",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_text_color": "#baaa9e",
             "overlay_color": "#000000",
             "overlay_opacity": 4
           }
