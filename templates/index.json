@@ -58,8 +58,8 @@
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#baaa9e",
-            "overlay_color": "#000000",
-            "overlay_opacity": 4
+            "overlay_color": "#6e3e10",
+            "overlay_opacity": 12
           }
         }
       },
