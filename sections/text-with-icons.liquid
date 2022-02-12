@@ -26,6 +26,8 @@
       {%- assign text_color = section.settings.text_color -%}
     {%- endif -%}
 
+    {% assign text_icons = 0 %}
+
     --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
     --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
     --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
@@ -72,16 +74,28 @@
         {%- if section.blocks.size > 1 -%}
           <page-dots class="text-with-icons__dots dots-nav dots-nav--centered hidden-lap-and-up">
             {%- for block in section.blocks -%}
-              <button class="dots-nav__item tap-area" {% if forloop.first %}aria-current="true"{% endif%}>
+              {% assign text_icons = text_icons | plus: 1 %}
+              <button class="text-icons-nav-bar dots-nav__item tap-area" {% if forloop.first %}aria-current="true"{% endif%}>
                 <span class="visually-hidden">{{ 'general.accessibility.go_to_slide' | t: num: forloop.index }}</span>
               </button>
             {%- endfor -%}
+            {% assign total_icons = text_icons %}
           </page-dots>
         {%- endif -%}
       </native-carousel>
     </div>
   </div>
 </section>
+
+<style>
+  /* dots to bars */
+  .text-icons-nav-bar {
+    height:2.25px;
+    width: calc(100%/{{ total_icons }});
+    margin: 0;
+    border-radius:0%;
+  }
+</style>
 
 {% schema %}
 {
