@@ -106,43 +106,51 @@
     "1642628267df666f67": {
       "type": "logo-list",
       "blocks": {
+        "5749931d-78d0-4e6a-aae7-6ad032615fa7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_SCIENCEBACKED_GRAY_TEXT.png",
+            "link": ""
+          }
+        },
         "1642628267f313917d-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_4cureicons.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_PLANT_GRAY_TEXT.png",
             "link": ""
           }
         },
         "1642628267f313917d-1": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_5cureicons.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NONGMO_GRAY_TEXT.png",
             "link": ""
           }
         },
         "1642628267f313917d-2": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_6cureicons.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NOSUGAR_GRAY_TEXT.png",
             "link": ""
           }
         },
         "1642628267f313917d-3": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_8cureicons.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_VEGAN_GRAY_TEXT.png",
             "link": ""
           }
         },
         "1642628267f313917d-4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Artboard_7cureicons.png",
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_GLUTENFREE_GRAY_TEXT.png",
             "link": ""
           }
         }
       },
       "block_order": [
+        "5749931d-78d0-4e6a-aae7-6ad032615fa7",
         "1642628267f313917d-0",
         "1642628267f313917d-1",
         "1642628267f313917d-2",
