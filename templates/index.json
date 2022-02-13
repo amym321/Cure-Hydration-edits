@@ -425,8 +425,8 @@
         "look-1": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_be718468-ea18-4134-b8ef-10f268ae01c5.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_30d06307-d09c-4211-83ac-4d7e2731dc1a.jpg",
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_SL.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_540_SL-2.jpg",
             "dot_type": "normal",
             "product_1": "berry-pomegranate",
             "product_1_horizontal_position": 26,
