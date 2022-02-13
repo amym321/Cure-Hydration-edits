@@ -47,7 +47,7 @@
         "16426281659cc33072-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cure.gif",
+            "image": "shopify:\/\/shop_images\/2.jpg",
             "tab_label": "Science",
             "subheading": "",
             "title": "Backed by Science",
@@ -78,6 +78,7 @@
         "1644704549495e8e73-0": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DTS_Skin_Deep_Misc_4247_5e8f44c1-9895-4c4d-96d7-3e994bc35c0f.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "Powered by Nature",
