@@ -28,7 +28,6 @@
 }
 .section__header.text-container.text-left {
   margin-bottom: 30px;
-  font-size: 40px;
 }
 .shopify-section--our-values{
   margin-top:90px;
@@ -40,6 +39,10 @@
   border-top:2px solid #BAAA9E;
   padding-top:40px;
 }
+
+@media screen and (min-width: 1000px){.custom-image-text--section-wrapper, 
+.text-container .h2, .rte h2, .text-container .h3, .rte h3, .text-container .h4, .rte h4{
+  font-size: 40px;}}
   
 .custom-image-text--section-wrapper .bottom_content_wrap {
   display: flex;
