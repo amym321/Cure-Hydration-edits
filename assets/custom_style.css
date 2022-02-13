@@ -162,6 +162,9 @@
   #shopify-section-template--15621075697910__1642627368fefe7f9b .content-box--left{margin-left: 0;}
   .real-ingredients_right.mobile_show{margin-top:0;}
   .real-ingredients--section-wrapper { margin: 50px 0;}
+  .bottom_content_left h3.heading {
+  margin-bottom: 20px;
+    font-size: 30px;}
   
 }
 @media(max-width:480px){
