@@ -212,19 +212,22 @@
 }
 @media screen and (max-width: 465px) {
   .press-list__item blockquote {
-    padding-bottom:460px;
+    font-size: calc(var(--heading-large-font-size)*0.95);
+    padding-bottom:480px;
   }
 }
 @media screen and (max-width: 360px) {
   .press-list__item blockquote {
-    font-size: 30px;
+    font-size: calc(var(--heading-large-font-size)*0.9);
+    /* font-size: 30px; */
     padding-bottom:400px;
   }
 }
 @media screen and (max-width: 280px) {
   .press-list__item blockquote {
     padding-bottom:365px;
-    font-size: 26px;
+    /* font-size: 26px; */
+    font-size: calc(var(--heading-large-font-size)*0.75);
   }
 }
 .press-list__item split-lines{
