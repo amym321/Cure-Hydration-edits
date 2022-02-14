@@ -4605,6 +4605,7 @@ select:focus,
   border: 1px solid rgb(var(--border-color));
   border-radius: var(--button-border-radius);
   cursor: pointer;
+    background: #F5F2F1;
 }
 
 [dir="ltr"] .select--collapse-start {
