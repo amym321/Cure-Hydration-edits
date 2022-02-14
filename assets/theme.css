@@ -2674,12 +2674,12 @@ p + .button-group,
 }
 
 .label--custom {
-  background: rgb(var(--product-custom-label-background));
+  background: #BAAA9E;
   color: rgb(var(--product-custom-label-text-color));
 }
 
 .label--custom2 {
-  background: rgb(var(--product-custom-label-2-background));
+  background: #3E7B8F;
   color: rgb(var(--product-custom-label-2-text-color));
 }
 
