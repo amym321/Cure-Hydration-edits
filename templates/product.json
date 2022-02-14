@@ -13,20 +13,13 @@
           "settings": {
             "hide_sold_out_variants": true,
             "selector_mode": "dropdown",
-            "color_mode": "color",
+            "color_mode": "dropdown",
             "size_chart_page": ""
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "ec2a10e5-0c58-48ba-8c9e-184f23f6318c": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Ingredients"
           }
         },
         "buy_buttons": {
@@ -50,7 +43,6 @@
         "07464fba-994a-4697-9fbd-5d54b884e9aa",
         "variant_picker",
         "quantity_selector",
-        "ec2a10e5-0c58-48ba-8c9e-184f23f6318c",
         "buy_buttons",
         "62ab0f50-5902-4417-a014-9b1c060299c2"
       ],
