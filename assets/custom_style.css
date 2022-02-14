@@ -233,9 +233,9 @@
   transform: translateY(-50%) !important;
 }
 
-.press-list__logo-list-wrapper page-dots {
+/* .press-list__logo-list-wrapper page-dots {
   margin-top:0;
-}
+} */
 .press-list__logo-list-wrapper .slick-track {
   position:relative;
   padding-top: 30px;
