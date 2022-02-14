@@ -30,35 +30,69 @@
   <div class="section__color-wrapper {% unless blends_with_background %}vertical-breather{% endunless %}">
     <div class="container">
       <press-list {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="press-list">
-        <div class="press-list__wrapper">
+        <div class="slider-for press-list__wrapper">
           {%- for block in section.blocks -%}
-            <press-item {% unless forloop.first %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="press-list__item" {{ block.shopify_attributes }}>
+            <press-item  id="block-{{ section.id }}-{{ block.id }}" class="press-list__item" {{ block.shopify_attributes }}>
               <blockquote class="press-list__item-content blockquote blockquote--center">
-                <split-lines {% if section.settings.reveal_on_scroll or forloop.first == false %}reveal-visibility{% endif %}>{{ block.settings.content | escape }}</split-lines>
+                <split-lines>{{ block.settings.content | escape }}</slpit-lines>
               </blockquote>
             </press-item>
           {%- endfor -%}
-        </div>
 
+        </div>
         <div class="press-list__logo-list-wrapper hide-scrollbar">
-          <page-dots align-selected class="press-list__logo-list">
-            {%- for block in section.blocks -%}
-              <button class="press-list__logo-item tap-area" {% if forloop.first %}aria-current="true"{% endif %}>
-                {%- if block.settings.logo != blank -%}
-                  {%- capture image_sizes -%}{{ block.settings.logo_width }}, {{ block.settings.logo_width | times: 2 }}, {{ block.settings.logo_width | times: 3 }}{%- endcapture -%}
-                  <span class="visually-hidden">{{ 'general.accessibility.go_to_slide' | t: num: forloop.index }}</span>
-                  <img class="press-list__logo-image" loading="lazy" style="max-width: {{ block.settings.logo_width }}px" sizes="{{ block.settings.logo_width }}px" {% render 'image-attributes', image: block.settings.logo, sizes: image_sizes %}>
-                {%- else -%}
-                  <span class="heading h6">Logo {{ forloop.index }}</span>
-                {%- endif -%}
-              </button>
-            {%- endfor -%}
+          <page-dots align-selected class="slider-nav press-list__logo-list">
+              {%- for block in section.blocks -%}
+                <button class="press-list__logo-item tap-area" >
+                  {%- if block.settings.logo != blank -%}
+                    {%- capture image_sizes -%}{{ block.settings.logo_width }}, {{ block.settings.logo_width | times: 2 }}, {{ block.settings.logo_width | times: 3 }}{%- endcapture -%}
+                    <!-- <span class="visually-hidden">{{ 'general.accessibility.go_to_slide' | t: num: forloop.index }}</span> -->
+                    <img class="press-list__logo-image" loading="lazy" style="max-width: {{ block.settings.logo_width }}px" sizes="{{ block.settings.logo_width }}px" {% render 'image-attributes', image: block.settings.logo, sizes: image_sizes %}>
+                  {%- else -%}
+                    <span class="heading h6">Logo {{ forloop.index }}</span>
+                  {%- endif -%}
+                </button>
+              {%- endfor -%}
           </page-dots>
         </div>
       </press-list>
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider-for').slick({
+      slidesToShow: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav',
+      autoplay: true,
+      autoplaySpeed: 6000
+    });
+    if (window.screen.width <= 1000) {
+      $('.slider-nav').slick({
+        slidesToShow: 2,
+        asNavFor: '.slider-for',
+        arrows: false,
+        dots: false,
+        centerMode: false,
+        focusOnSelect: true
+      });
+      console.log('1');
+    } else {
+      $('.slider-nav').slick({
+        slidesToShow: 4,
+        asNavFor: '.slider-for',
+        arrows: false,
+        dots: false,
+        centerMode: false,
+        focusOnSelect: true
+      });
+      console.log('2');
+    }
+  });
+</script>
 
 {% schema %}
 {

@@ -178,16 +178,6 @@
 /**** code added - AM ****/
 /*************************/
 
-/* vertical center quotes in Press section */
-.press-list__item	{
-  position: relative;
-}
-
-.press-list__item blockquote {
-  top: 45%;
-  transform: translateY(-50%);
-}
-
 /* slideshow arrows */
 .slideshow-buttons {
   position: absolute; 
@@ -214,4 +204,56 @@
 .slideshow-button-right {
   position: absolute;
   right: 0px;
+}
+
+/* vertical center quotes & logos. styling - Press section */
+.press-list__item blockquote {
+  padding-bottom:300px;
+}
+@media screen and (max-width: 465px) {
+  .press-list__item blockquote {
+    padding-bottom:440px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .press-list__item blockquote {
+    font-size: 30px;
+    padding-bottom:380px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .press-list__item blockquote {
+    padding-bottom:350px;
+    font-size: 26px;
+  }
+}
+.press-list__item split-lines{
+  position:absolute;
+  top: 45% !important;
+  transform: translateY(-50%) !important;
+}
+
+.press-list__logo-list-wrapper page-dots {
+  margin-top:0;
+}
+.press-list__logo-list-wrapper .slick-track {
+  position:relative;
+  padding-top: 30px;
+}
+.press-list__logo-item {
+  top: 45% !important;
+  transform: translateY(-50%) !important;
+}
+
+.press-list__logo-list-wrapper .slick-prev,
+.press-list__logo-list-wrapper .slick-next {
+  display:none !important;
+}
+.slick-current 
+{
+  opacity: 1;
+}
+.press-list__logo-image {
+  margin-left: auto;
+  margin-right: auto;
 }

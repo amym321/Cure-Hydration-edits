@@ -1923,59 +1923,11 @@
   };
   window.customElements.define("loading-bar", LoadingBar);
 
-  //REMOVE animation of split-lines on Press section - AM
+
+  //REMOVED animation of split-lines on Press section - AM
   // js/custom-element/ui/split-lines.js
-  // var SplitLines = class extends HTMLElement {
-  //   connectedCallback() {
-  //     this.originalContent = this.textContent;
-  //     this.lastWidth = window.innerWidth;
-  //     this.hasBeenSplitted = false;
-  //     window.addEventListener("resize", this._onResize.bind(this));
-  //   }
-  //   [Symbol.asyncIterator]() {
-  //     return {
-  //       splitPromise: this.split.bind(this),
-  //       index: 0,
-  //       async next() {
-  //         const lines = await this.splitPromise();
-  //         if (this.index !== lines.length) {
-  //           return { done: false, value: lines[this.index++] };
-  //         } else {
-  //           return { done: true };
-  //         }
-  //       }
-  //     };
-  //   }
-  //   split(force = false) {
-  //     if (this.childElementCount > 0 && !force) {
-  //       return Promise.resolve(Array.from(this.children));
-  //     }
-  //     this.hasBeenSplitted = true;
-  //     return new Promise((resolve) => {
-  //       requestAnimationFrame(() => {
-  //         this.innerHTML = this.originalContent.replace(/./g, "<span>$&</span>").replace(/\s/g, " ");
-  //         const bounds = {};
-  //         Array.from(this.children).forEach((child) => {
-  //           const rect = child.getBoundingClientRect().top;
-  //           bounds[rect] = (bounds[rect] || "") + child.textContent;
-  //         });
-  //         this.innerHTML = Object.values(bounds).map((item) => `<span ${this.hasAttribute("reveal") && !force ? "reveal" : ""} ${this.hasAttribute("reveal-visibility") && !force ? "reveal-visibility" : ""} style="display: block">${item.trim()}</span>`).join("");
-  //         this.style.opacity = this.hasAttribute("reveal") ? 1 : null;
-  //         this.style.visibility = this.hasAttribute("reveal-visibility") ? "visible" : null;
-  //         resolve(Array.from(this.children));
-  //       });
-  //     });
-  //   }
-  //   async _onResize() {
-  //     if (this.lastWidth === window.innerWidth || !this.hasBeenSplitted) {
-  //       return;
-  //     }
-  //     await this.split(true);
-  //     this.dispatchEvent(new CustomEvent("split-lines:re-split", { bubbles: true }));
-  //     this.lastWidth = window.innerWidth;
-  //   }
-  // };
-  // window.customElements.define("split-lines", SplitLines);
+
+
 
   // js/custom-element/ui/popover.js
   var PopoverContent = class extends OpenableElement {
@@ -3188,9 +3140,8 @@
   // js/custom-element/section/slideshow/slideshow-item.js
   var SlideshowItem = class extends HTMLElement {
     async connectedCallback() {
-      // code added - am. shlideshow arrows
+      // line added - am. shlideshow arrows
       this.prevNextButtons = this.querySelector("prev-next-buttons");
-      
       this._pendingAnimations = [];
       this.addEventListener("split-lines:re-split", (event) => {
         Array.from(event.target.children).forEach((line) => line.style.visibility = this.selected ? "visible" : "hidden");
@@ -4424,107 +4375,11 @@
   };
   window.customElements.define("time-line", Timeline);
 
-  // js/custom-element/section/press/press-list.js
-  var PressList = class extends CustomHTMLElement {
-    connectedCallback() {
-      this.pressItemsWrapper = this.querySelector(".press-list__wrapper");
-      this.pressItems = Array.from(this.querySelectorAll("press-item"));
-      this.pageDots = this.querySelector("page-dots");
-      if (this.pressItems.length > 1) {
-        if (Shopify.designMode) {
-          this.addEventListener("shopify:block:select", (event) => {
-            var _a;
-            (_a = this.intersectionObserver) == null ? void 0 : _a.disconnect();
-            if (event.detail.load || !event.target.selected) {
-              this.select(event.target.index, !event.detail.load);
-            }
-          });
-        }
-        this.pressItemsWrapper.addEventListener("swiperight", this.previous.bind(this));
-        this.pressItemsWrapper.addEventListener("swipeleft", this.next.bind(this));
-        this.addEventListener("page-dots:changed", (event) => this.select(event.detail.index));
-        this._blockVerticalScroll();
-      }
-      if (this.hasAttribute("reveal-on-scroll")) {
-        this._setupVisibility();
-      }
-    }
-    async _setupVisibility() {
-      await this.untilVisible();
-      this.pressItems[this.selectedIndex].transitionToEnter();
-    }
-    get selectedIndex() {
-      return this.pressItems.findIndex((item) => item.selected);
-    }
-    previous() {
-      this.select((this.selectedIndex - 1 + this.pressItems.length) % this.pressItems.length);
-    }
-    next() {
-      this.select((this.selectedIndex + 1 + this.pressItems.length) % this.pressItems.length);
-    }
-    async select(index, shouldAnimate = true) {
-      const previousItem = this.pressItems[this.selectedIndex], newItem = this.pressItems[index];
-      await previousItem.transitionToLeave(shouldAnimate);
-      this.pageDots.selectedIndex = index;
-      await newItem.transitionToEnter(shouldAnimate);
-    }
-  };
-  Object.assign(PressList.prototype, VerticalScrollBlockerMixin);
-  window.customElements.define("press-list", PressList);
 
+  // REMOVED the following code blocks. slick slider performing this on Press section - am
+  // js/custom-element/section/press/press-list.js
   // js/custom-element/section/press/press-item.js
-  var PressItem = class extends HTMLElement {
-    connectedCallback() {
-      this.addEventListener("split-lines:re-split", (event) => {
-        Array.from(event.target.children).forEach((line) => line.style.visibility = this.selected ? "visible" : "hidden");
-      });
-    }
-    get index() {
-      return [...this.parentNode.children].indexOf(this);
-    }
-    get selected() {
-      return !this.hasAttribute("hidden");
-    }
-    async transitionToLeave(shouldAnimate = true) {
-      const textLines = await resolveAsyncIterator(this.querySelectorAll("split-lines")), animation = new CustomAnimation(new ParallelEffect(textLines.reverse().map((item, index) => {
-        return new CustomKeyframeEffect(item, {
-          visibility: ["visible", "hidden"],
-          clipPath: ["inset(0 0 0 0)", "inset(0 0 100% 0)"],
-          transform: ["translateY(0)", "translateY(100%)"]
-        }
-        // REMOVE transition of quote block on Press section - AM
-        // , {
-        //   duration: 350,
-        //   delay: 60 * index,
-        //   easing: "cubic-bezier(0.68, 0.00, 0.77, 0.00)"
-        // }
-        );
-      })));
-      shouldAnimate ? animation.play() : animation.finish();
-      await animation.finished;
-      this.setAttribute("hidden", "");
-    }
-    async transitionToEnter(shouldAnimate = true) {
-      this.removeAttribute("hidden");
-      const textLines = await resolveAsyncIterator(this.querySelectorAll("split-lines, .testimonial__author")), animation = new CustomAnimation(new ParallelEffect(textLines.map((item, index) => {
-        return new CustomKeyframeEffect(item, {
-          visibility: ["hidden", "visible"],
-          clipPath: ["inset(0 0 100% 0)", "inset(0 0 0px 0)"],
-          transform: ["translateY(100%)", "translateY(0)"]
-        }
-        // REMOVE transition of quote block on Press section - AM
-        //  , {
-        //   duration: 550,
-        //   delay: 120 * index,
-        //   easing: "cubic-bezier(0.23, 1, 0.32, 1)"
-        // }
-        );
-      })));
-      shouldAnimate ? animation.play() : animation.finish();
-      return animation.finished;
-    }
-  };
-  window.customElements.define("press-item", PressItem);
+
 
   // js/custom-element/section/header/desktop-navigation.js
   var DesktopNavigation = class extends CustomHTMLElement {
