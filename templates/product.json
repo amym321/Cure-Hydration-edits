@@ -93,7 +93,7 @@
           "type": "content",
           "settings": {
             "title": "Ingredients",
-            "content": "<p>Organic Coconut Water Powder, Organic Berry Flavor, Non-GMO Citric Acid, Pink Himalayan Salt, Sodium Citrate, Organic Pomegranate Juice Powder, Organic Beet Root Juice Powder, Organic Stevia Extract, Lemon Juice Powder, Monk Fruit Extract. <\/p><p><strong>CONTAINS<\/strong>: Coconut<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
             "page": ""
           }
         },
