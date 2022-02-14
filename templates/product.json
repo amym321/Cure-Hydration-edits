@@ -290,11 +290,11 @@
         "d7f5f0c1-318d-4d99-8f0f-bd6344c37d77": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/T0A2442.jpg",
+            "image": "shopify:\/\/shop_images\/Science.gif",
             "tab_label": "science",
             "subheading": "",
             "title": "That’s why we made Cure.",
-            "content": "<p>Based on the World Health Organization’s gold standard of rehydration, known as Oral Rehydration Solution, each packet contains electrolytes and glucose to facilitate rapid hydration directly into your bloodstream. ORS is as effective as an IV drip, but way more convenient. Plus, Cure’s plant-based formula has no added sugars, just natural fruit flavors you’ll love to drink. Science has never tasted this good.<\/p>",
+            "content": "<p>Based on the World Health Organization’s gold standard of rehydration, known as Oral Rehydration Solution, each packet contains electrolytes and glucose to facilitate rapid hydration directly into your bloodstream. <\/p><p><strong>ORS is as effective as an IV drip, but way more convenient.<\/strong> Plus, Cure’s plant-based formula has no added sugars, just natural fruit flavors you’ll love to drink. Science has never tasted this good.<\/p>",
             "button_text": "",
             "button_link": ""
           }
