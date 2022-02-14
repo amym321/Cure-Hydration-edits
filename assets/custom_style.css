@@ -208,22 +208,22 @@
 
 /* vertical center quotes & logos. styling - Press section */
 .press-list__item blockquote {
-  padding-bottom:300px;
+  padding-bottom:340px;
 }
 @media screen and (max-width: 465px) {
   .press-list__item blockquote {
-    padding-bottom:440px;
+    padding-bottom:460px;
   }
 }
 @media screen and (max-width: 360px) {
   .press-list__item blockquote {
     font-size: 30px;
-    padding-bottom:380px;
+    padding-bottom:400px;
   }
 }
 @media screen and (max-width: 280px) {
   .press-list__item blockquote {
-    padding-bottom:350px;
+    padding-bottom:365px;
     font-size: 26px;
   }
 }
