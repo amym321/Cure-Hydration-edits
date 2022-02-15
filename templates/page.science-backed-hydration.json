@@ -325,12 +325,11 @@
     },
     "16448910400c96333c": {
       "type": "multi-column",
-      "disabled": true,
       "blocks": {
         "16448910405ba49995-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Added Sugars",
             "content": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>",
@@ -343,7 +342,7 @@
         "16448910405ba49995-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Artificial Sweeteners",
             "content": "<p>We will never use sugar alcohols Erythritol in our products.<\/p>",
@@ -356,7 +355,7 @@
         "16448910405ba49995-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Sugar Alcohols",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -369,7 +368,7 @@
         "16448910405ba49995-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Artificial flavors or colors.",
             "content": "<p>We will never use artificial flavors or colors in our products. Keep your eye out for xx, xx, or xx and  avoid it!<\/p>",
