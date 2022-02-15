@@ -344,8 +344,8 @@
           "type": "item",
           "settings": {
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "NO Artificial Sweeteners",
+            "content": "<p>We will never use sugar alcohols Erythritol in our products.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -356,7 +356,7 @@
           "type": "item",
           "settings": {
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
+            "title": "NO Sugar Alcohols",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -368,8 +368,8 @@
           "type": "item",
           "settings": {
             "image_border": "rgba(0,0,0,0)",
-            "title": "Column 1",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "NO Artificial flavors or colors.",
+            "content": "<p>We will never use artificial flavors or colors in our products. Keep your eye out for xx, xx, or xx and  avoid it!<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
