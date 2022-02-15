@@ -256,34 +256,32 @@
     },
     "1644890844a2fef25a": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "The NO List",
         "content": "",
         "button_text": "",
         "button_link": "",
-        "background_type": "full_width",
+        "background_type": "boxed",
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
+        "background": "#baaa9e",
+        "text_color": "#ffffff",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "1644890654509fb96e": {
       "type": "text-with-icons",
-      "disabled": true,
       "blocks": {
         "164489065451b4b2d1-0": {
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "custom_icon": "shopify:\/\/shop_images\/cancel_f526e90d-f85a-4ebf-8a61-3ffe5f72e5eb.png",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_9b4dda3d-a2c0-4a29-8874-b8d3fdec4a6f.png",
             "title": "NO Added Sugars",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+            "content": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>"
           }
         },
         "164489065451b4b2d1-1": {
@@ -321,8 +319,8 @@
         "164489065451b4b2d1-3"
       ],
       "settings": {
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
       }
     },
     "16448910400c96333c": {
@@ -331,49 +329,53 @@
         "16448910405ba49995-0": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Added Sugars",
             "content": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
-            "text_alignment": "left"
+            "text_alignment": "center"
           }
         },
         "16448910405ba49995-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Artificial Sweeteners",
             "content": "<p>We will never use sugar alcohols Erythritol in our products.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
-            "text_alignment": "left"
+            "text_alignment": "center"
           }
         },
         "16448910405ba49995-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Sugar Alcohols",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
-            "text_alignment": "left"
+            "text_alignment": "center"
           }
         },
         "16448910405ba49995-3": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/NO_657515d0-4dd4-49d1-887e-583f259aecab.png",
             "image_border": "rgba(0,0,0,0)",
             "title": "NO Artificial flavors or colors.",
             "content": "<p>We will never use artificial flavors or colors in our products. Keep your eye out for xx, xx, or xx and  avoid it!<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
-            "text_alignment": "left"
+            "text_alignment": "center"
           }
         }
       },
@@ -389,10 +391,10 @@
         "subheading": "",
         "title": "The No List",
         "content": "",
-        "column_alignment": "left",
-        "mobile_item_size": "medium",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
         "desktop_item_size": "large",
-        "spacing": "normal",
+        "spacing": "loose",
         "background": "#baaa9e",
         "text_color": "#ffffff"
       }
@@ -531,67 +533,6 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
-    },
-    "16448910165a09bafd": {
-      "type": "promotion-blocks",
-      "blocks": {
-        "16448910167fcabb04-0": {
-          "type": "image",
-          "settings": {
-            "highlight": false,
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#1e316a",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "16448910167fcabb04-1": {
-          "type": "quote",
-          "settings": {
-            "highlight": false,
-            "subheading": "Subheading",
-            "content": "Use this text to share information about your brand with your customers.",
-            "author": "John S.",
-            "background": "#f7f8fd",
-            "text_color": "#1e316a"
-          }
-        },
-        "16448910167fcabb04-2": {
-          "type": "image",
-          "settings": {
-            "highlight": false,
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#1e316a",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        }
-      },
-      "block_order": [
-        "16448910167fcabb04-0",
-        "16448910167fcabb04-1",
-        "16448910167fcabb04-2"
-      ],
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Promotion blocks",
-        "section_size": "medium",
-        "stack_on_mobile": true,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -608,7 +549,6 @@
     "1642627495a6d25ec8",
     "164262729411fab007",
     "1642627491015e6f99",
-    "164262737339effc61",
-    "16448910165a09bafd"
+    "164262737339effc61"
   ]
 }
