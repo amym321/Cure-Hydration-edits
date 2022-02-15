@@ -22,7 +22,7 @@
     "product_on_sale_accent": "#3e7b8f",
     "product_sold_out_accent": "#3e7b8f",
     "product_custom_label_background": "#baaa9e",
-    "product_custom_label_2_background": "#baaa9e",
+    "product_custom_label_2_background": "#3e7b8f",
     "product_in_stock_text_color": "#2e9e7b",
     "product_low_stock_text_color": "#de2a2a",
     "heading_font": "sans-serif",

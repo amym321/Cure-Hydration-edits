@@ -36,7 +36,7 @@
         "title": "You’re probably dehydrated. (It’s okay, 75% of Americans are, too.)",
         "image": "shopify:\/\/shop_images\/img.png",
         "title_left": "And water alone is not enough.",
-        "content_left": "<p>We think the solution to dehydration is simply drinking more water, but science shows that staying hydrated often requires more than water alone. <br\/><br\/>Without essential electrolytes like sodium and potassium, we can’t replenish ourselves adequately from everyday life: exercise, travel, late nights or illness.<br\/><br\/>Replacing electrlytes is the key to hydration. And Cure makes the best kind.<\/p>",
+        "content_left": "<p>We think the solution to dehydration is simply drinking more water, but science shows that staying hydrated often requires more than water alone. <br\/><br\/>Without essential electrolytes like sodium and potassium, we can’t replenish ourselves adequately from everyday life: exercise, travel, late nights or illness.<br\/><br\/>Replacing electrlytes is the key to hydration. And Cure makes it easy.<\/p>",
         "title_right": "Symptoms of<br> dehydration",
         "content_right": "<p>Fatigue<br\/>Muscle Cramps<br\/>Headaches<br\/>Loss of Focus<br\/>Flu Like Symptoms<\/p>"
       }
@@ -82,7 +82,7 @@
             "tab_label": "",
             "subheading": "",
             "title": "Powered by Nature",
-            "content": "<p>Cure’s plant-based formula has no added sugars, just natural fruit flavors you’ll love to drink. <\/p><p>Science has never tasted this good.<\/p>",
+            "content": "<p>Unlike the sugary, fluorescent-blue sports drinks from your past, Cure's Hydrating Electrolyte Mix was formulated for effective hydration without all the junk. Our plant-based formula has 4x the electrolytes of leading sports drinks and is made with real ingredients like coconut water and pink Himalayan salt. No added sugar or anything artificial, just natural fruit flavors you'll love to drink.<br\/><br\/>Science has never tasted this good.<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -190,14 +190,6 @@
             "content": "<p>Nature’s natural source of <strong>sodium. <\/strong>Sodium is a major electrolyte, so don’t avoid it. <br\/>It is absolutely imperative for proper hydration.<\/p>"
           }
         },
-        "94918bf5-4fe6-42c3-b5f5-f818c57b8261": {
-          "type": "ingredient",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_3ingredients.jpg",
-            "title": "No Added Sugar",
-            "content": "<p>Added sugars don't include vitamins and minerals found in natural sources of glucose.<br\/>They are used by food manufacturers to increase flavor or extend shelf life.<\/p>"
-          }
-        },
         "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c": {
           "type": "ingredient",
           "settings": {
@@ -250,7 +242,6 @@
       "block_order": [
         "638795ca-4410-42c9-aa15-c9997ecd906a",
         "1f7ad01d-b8ac-4fcb-a722-3923e1de60ea",
-        "94918bf5-4fe6-42c3-b5f5-f818c57b8261",
         "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c",
         "dab59078-1b8d-4d2b-93fe-8c0438b33b8a",
         "78196c00-1a31-4dca-b94e-d021b974523b",
@@ -261,6 +252,192 @@
       "settings": {
         "title": "Made with Real Ingredients.<br> Nothing Artificial.",
         "description": "<p>Sports drinks are full of added sugar and artificial ingredients. Cure is made with premium and plant-based ingredients and mixed into tasty perfection.<\/p>"
+      }
+    },
+    "1644890844a2fef25a": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "The NO List",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#baaa9e",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16448941453a7c8e98": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "16448941452f57ea48-1": {
+          "type": "question",
+          "settings": {
+            "title": "NO Added Sugars",
+            "answer": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>"
+          }
+        },
+        "16448941452f57ea48-2": {
+          "type": "question",
+          "settings": {
+            "title": "NO Artificial Sweeteners",
+            "answer": "<p>We will never use sugar alcohols Erythritol in our products.<\/p>"
+          }
+        },
+        "16448941452f57ea48-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16448941452f57ea48-1",
+        "16448941452f57ea48-2",
+        "16448941452f57ea48-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "The NO List",
+        "content": "",
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
+      }
+    },
+    "1644890654509fb96e": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "164489065451b4b2d1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_9b4dda3d-a2c0-4a29-8874-b8d3fdec4a6f.png",
+            "title": "NO Added Sugars",
+            "content": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_9b4dda3d-a2c0-4a29-8874-b8d3fdec4a6f.png",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164489065451b4b2d1-0",
+        "164489065451b4b2d1-1",
+        "164489065451b4b2d1-2",
+        "164489065451b4b2d1-3"
+      ],
+      "settings": {
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
+      }
+    },
+    "16448910400c96333c": {
+      "type": "multi-column",
+      "blocks": {
+        "16448910405ba49995-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Added Sugars",
+            "content": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16448910405ba49995-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Artificial Sweeteners",
+            "content": "<p>We will never use sugar alcohols Erythritol in our products.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16448910405ba49995-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Sugar Alcohols",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        },
+        "16448910405ba49995-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NO_924x_8eeff60a-e339-4481-824b-27c516191645.png",
+            "image_border": "rgba(0,0,0,0)",
+            "title": "NO Artificial flavors or colors.",
+            "content": "<p>We will never use artificial flavors or colors in our products. Keep your eye out for xx, xx, or xx and  avoid it!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16448910405ba49995-0",
+        "16448910405ba49995-1",
+        "16448910405ba49995-2",
+        "16448910405ba49995-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "The No List",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
       }
     },
     "1642627495a6d25ec8": {
@@ -407,6 +584,10 @@
     "16447045496cfd60d5",
     "1642628267df666f67",
     "1643049350b81fe062",
+    "1644890844a2fef25a",
+    "16448941453a7c8e98",
+    "1644890654509fb96e",
+    "16448910400c96333c",
     "1642627495a6d25ec8",
     "164262729411fab007",
     "1642627491015e6f99",
