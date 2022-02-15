@@ -318,8 +318,8 @@
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#baaa9e",
-        "overlay_color": "#baaa9e",
-        "overlay_opacity": 10
+        "overlay_color": "#847971",
+        "overlay_opacity": 18
       }
     },
     "1639081552440f5ba3": {
@@ -341,7 +341,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#45492e",
         "overlay_color": "#45492e",
-        "overlay_opacity": 11
+        "overlay_opacity": 15
       }
     },
     "1637089602f412eaf0": {
