@@ -32,7 +32,7 @@
       <press-list {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="press-list">
 
         <div class="slider-for press-list__wrapper">
-          {% assign count = 0 %},
+          {% assign count = 0 %}  
           {%- for block in section.blocks -%}
             <press-item  id="block-{{ section.id }}-{{ block.id }}" class="press-list__item" {{ block.shopify_attributes }}>
               <blockquote class="press-list__item-content blockquote blockquote--center">
