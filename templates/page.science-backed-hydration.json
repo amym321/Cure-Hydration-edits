@@ -254,6 +254,75 @@
         "description": "<p>Sports drinks are full of added sugar and artificial ingredients. Cure is made with premium and plant-based ingredients and mixed into tasty perfection.<\/p>"
       }
     },
+    "1644890844a2fef25a": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "The NO List",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1644890654509fb96e": {
+      "type": "text-with-icons",
+      "blocks": {
+        "164489065451b4b2d1-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_f526e90d-f85a-4ebf-8a61-3ffe5f72e5eb.png",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "164489065451b4b2d1-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        },
+        "164489065451b4b2d1-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164489065451b4b2d1-0",
+        "164489065451b4b2d1-1",
+        "164489065451b4b2d1-2",
+        "164489065451b4b2d1-3"
+      ],
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "1642627495a6d25ec8": {
       "type": "gallery",
       "blocks": {
@@ -398,6 +467,8 @@
     "16447045496cfd60d5",
     "1642628267df666f67",
     "1643049350b81fe062",
+    "1644890844a2fef25a",
+    "1644890654509fb96e",
     "1642627495a6d25ec8",
     "164262729411fab007",
     "1642627491015e6f99",
