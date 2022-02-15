@@ -177,7 +177,7 @@
         "638795ca-4410-42c9-aa15-c9997ecd906a": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-02-15_at_9.29.40_AM.png",
             "title": "Coconut Water",
             "content": "<p>Nature’s source of <strong>potassium<\/strong> (4x bananas and 8-10x sports drinks).<br\/>Contains glucose, antioxidants, magnesium, calcium, and other nutrients. <\/p>"
           }
@@ -208,6 +208,7 @@
         },
         "78196c00-1a31-4dca-b94e-d021b974523b": {
           "type": "ingredient",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Artboard_6ingredients.jpg",
             "title": "Sodium Citrate",
@@ -216,6 +217,7 @@
         },
         "7ae44fb1-fa2a-4206-8714-dd75d976e31f": {
           "type": "ingredient",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Artboard_5ingredients.jpg",
             "title": "Organic Stevia Extract",
@@ -224,6 +226,7 @@
         },
         "072dc1f6-79e4-4023-a445-ab5f09de1af4": {
           "type": "ingredient",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Artboard_4ingredients.jpg",
             "title": "Monk Fruit Extract",
@@ -232,6 +235,7 @@
         },
         "9f2b68b1-9048-4780-873e-c8258c49b2f3": {
           "type": "ingredient",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Artboard_7cure-ingredients.jpg",
             "title": "Fruit Juice Powder & Organic Flavors",
