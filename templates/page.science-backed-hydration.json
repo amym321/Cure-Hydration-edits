@@ -262,7 +262,7 @@
         "content": "",
         "button_text": "",
         "button_link": "",
-        "background_type": "boxed",
+        "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
@@ -288,7 +288,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_d05f160c-7800-4013-80da-33646c81ad76.png",
+            "custom_icon": "shopify:\/\/shop_images\/cancel_48x_9b4dda3d-a2c0-4a29-8874-b8d3fdec4a6f.png",
             "title": "Customer service",
             "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
           }
