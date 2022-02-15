@@ -803,7 +803,7 @@ p a:not(.button),
           mask-size: 71px 56px;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
-    /* display:none !important; */
+    display:none !important;
 }
 
 [dir="ltr"] .unordered-list,[dir="ltr"] 
