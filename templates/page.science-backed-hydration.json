@@ -435,7 +435,7 @@
         "column_alignment": "center",
         "mobile_item_size": "large",
         "desktop_item_size": "medium",
-        "spacing": "tight",
+        "spacing": "normal",
         "background": "#baaa9e",
         "text_color": "#ffffff"
       }
