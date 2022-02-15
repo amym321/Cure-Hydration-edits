@@ -38,7 +38,7 @@
               <blockquote class="press-list__item-content blockquote blockquote--center">
                 <split-lines>{{ block.settings.content | escape }}</slpit-lines>
                   {% assign count = count | plus: 1 %}
-                  {% if count == 5 %}
+                  {% if count == 1 %}
                     {% assign last_block_id =  block.id %}
                     {% assign last_block_content =  block.settings.content %}
                     {% assign last_block_width =  block.settings.logo_width %}
