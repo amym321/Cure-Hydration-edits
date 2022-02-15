@@ -10278,7 +10278,7 @@ input:checked + .popover__choice-label::after,
 
   .image-with-text__wrapper {
     display: flex;
-    padding: var(--vertical-breather) 0;
+    padding: 30px;
     align-items: center;
   }
 
