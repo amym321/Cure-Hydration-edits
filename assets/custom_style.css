@@ -208,32 +208,33 @@
 
 /* vertical center quotes & logos. styling - Press section */
 .press-list__item blockquote {
-  padding-bottom:340px;
+  padding-bottom:280px;
 }
 @media screen and (max-width: 465px) {
   .press-list__item blockquote {
     font-size: calc(var(--heading-large-font-size)*0.95);
-    padding-bottom:480px;
+    padding-bottom:360px;
   }
 }
 @media screen and (max-width: 360px) {
   .press-list__item blockquote {
     font-size: calc(var(--heading-large-font-size)*0.9);
     /* font-size: 30px; */
-    padding-bottom:400px;
+    padding-bottom:320px;
   }
 }
 @media screen and (max-width: 280px) {
   .press-list__item blockquote {
-    padding-bottom:365px;
+    padding-bottom:340px;
     /* font-size: 26px; */
     font-size: calc(var(--heading-large-font-size)*0.75);
   }
 }
+
 .press-list__item split-lines{
   position:absolute;
   top: 45% !important;
-  transform: translateY(-50%) !important;
+  transform: translateY(-45%) !important;
 }
 
 /* .press-list__logo-list-wrapper page-dots {
@@ -246,6 +247,8 @@
 .press-list__logo-item {
   top: 45% !important;
   transform: translateY(-50%) !important;
+  left: 0 !important;
+  transform: translateX(100%) !important;
 }
 
 .press-list__logo-list-wrapper .slick-prev,
@@ -259,4 +262,8 @@
 .press-list__logo-image {
   margin-left: auto;
   margin-right: auto;
+}
+
+.last-slide {
+  width:0 !important;
 }
