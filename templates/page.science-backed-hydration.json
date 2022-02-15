@@ -190,14 +190,6 @@
             "content": "<p>Nature’s natural source of <strong>sodium. <\/strong>Sodium is a major electrolyte, so don’t avoid it. <br\/>It is absolutely imperative for proper hydration.<\/p>"
           }
         },
-        "94918bf5-4fe6-42c3-b5f5-f818c57b8261": {
-          "type": "ingredient",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_3ingredients.jpg",
-            "title": "No Added Sugar",
-            "content": "<p>Added sugars don't include vitamins and minerals found in natural sources of glucose.<br\/>They are used by food manufacturers to increase flavor or extend shelf life.<\/p>"
-          }
-        },
         "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c": {
           "type": "ingredient",
           "settings": {
@@ -250,7 +242,6 @@
       "block_order": [
         "638795ca-4410-42c9-aa15-c9997ecd906a",
         "1f7ad01d-b8ac-4fcb-a722-3923e1de60ea",
-        "94918bf5-4fe6-42c3-b5f5-f818c57b8261",
         "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c",
         "dab59078-1b8d-4d2b-93fe-8c0438b33b8a",
         "78196c00-1a31-4dca-b94e-d021b974523b",
