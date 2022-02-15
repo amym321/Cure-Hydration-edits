@@ -325,6 +325,7 @@
     },
     "16448910400c96333c": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "16448910405ba49995-0": {
           "type": "item",
