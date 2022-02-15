@@ -275,6 +275,7 @@
     },
     "16448941453a7c8e98": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "16448941452f57ea48-1": {
           "type": "question",
@@ -365,7 +366,6 @@
     },
     "16448910400c96333c": {
       "type": "multi-column",
-      "disabled": true,
       "blocks": {
         "16448910405ba49995-0": {
           "type": "item",
@@ -434,7 +434,7 @@
         "content": "",
         "column_alignment": "center",
         "mobile_item_size": "large",
-        "desktop_item_size": "large",
+        "desktop_item_size": "medium",
         "spacing": "loose",
         "background": "#baaa9e",
         "text_color": "#ffffff"
