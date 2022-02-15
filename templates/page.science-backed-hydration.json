@@ -256,6 +256,7 @@
     },
     "1644890844a2fef25a": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "The NO List",
@@ -272,8 +273,47 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "16448941453a7c8e98": {
+      "type": "faq",
+      "blocks": {
+        "16448941452f57ea48-1": {
+          "type": "question",
+          "settings": {
+            "title": "NO Added Sugars",
+            "answer": "<p>Refined sugars are used by food manufacturers to increase flavor, but don’t have vitamins and minerals found in natural sources of sugar.<\/p>"
+          }
+        },
+        "16448941452f57ea48-2": {
+          "type": "question",
+          "settings": {
+            "title": "NO Artificial Sweeteners",
+            "answer": "<p>We will never use sugar alcohols Erythritol in our products.<\/p>"
+          }
+        },
+        "16448941452f57ea48-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16448941452f57ea48-1",
+        "16448941452f57ea48-2",
+        "16448941452f57ea48-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "The NO List",
+        "content": "",
+        "background": "#baaa9e",
+        "text_color": "#ffffff"
+      }
+    },
     "1644890654509fb96e": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "164489065451b4b2d1-0": {
           "type": "item",
@@ -325,6 +365,7 @@
     },
     "16448910400c96333c": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "16448910405ba49995-0": {
           "type": "item",
@@ -544,6 +585,7 @@
     "1642628267df666f67",
     "1643049350b81fe062",
     "1644890844a2fef25a",
+    "16448941453a7c8e98",
     "1644890654509fb96e",
     "16448910400c96333c",
     "1642627495a6d25ec8",
