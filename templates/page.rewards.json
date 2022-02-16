@@ -8,28 +8,6 @@
         "page_width": "large"
       }
     },
-    "164497911470eafa0d": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/DTS_Sweat_Maresa_Smith_2313-_1.jpg",
-        "subheading": "",
-        "title": "The Cure Club",
-        "content": "<p>Create an account to become a member and earn points & exclusive rewards every time you shop.<\/p>",
-        "button_text": "Join Now",
-        "button_link": "",
-        "link_style": "button",
-        "background_type": "full_width",
-        "text_width": "small",
-        "text_position": "bottom_right",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "1644979989b7bc1c15": {
       "type": "slideshow",
       "blocks": {
@@ -47,9 +25,9 @@
             "button_2_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "button_text_color": "#1e2827",
+            "overlay_color": "#3e7b8f",
+            "overlay_opacity": 12
           }
         }
       },
@@ -67,7 +45,6 @@
   },
   "order": [
     "main",
-    "164497911470eafa0d",
     "1644979989b7bc1c15"
   ]
 }
