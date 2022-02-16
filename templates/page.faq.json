@@ -378,35 +378,35 @@
         "c8c3fcd6-fc2f-47f7-b727-d4183676667c": {
           "type": "question",
           "settings": {
-            "title": "Why Can't I Use All My Points?",
+            "title": "Why can't I use all my points?",
             "answer": "<p>Points can only be used in 100 point increments. So if you have 100 points, you can use that for $10 off at checkout. 200 points, $20. And so on.<\/p>"
           }
         },
         "44353ef5-3e78-4611-b773-3e3b801252aa": {
           "type": "question",
           "settings": {
-            "title": "When Do I Get My Birthday Points?",
+            "title": "When do I get my birthday points?",
             "answer": "<p>On your birthday! The only instance in which birthday points will be delayed is if your birthday is within 30 days of you signing up for The Cure Club. This is for fraud protection, and you will still get your points after 30 days.<\/p>"
           }
         },
         "189be82d-ec57-46a3-b59a-6afef7c2353c": {
           "type": "question",
           "settings": {
-            "title": "Can I Refer My Friends?",
+            "title": "Can I refer my friends?",
             "answer": "<p>Yes, you can refer friends on <a href=\"http:\/\/www.curehydration.com\/pages\/referrals\">www.curehydration.com\/pages\/referrals<\/a>. Anyone you refer will receive $5 off their first $20+ purchase of Cure when they use your code. You will receive 50 points once they make their first purchase.<\/p>"
           }
         },
         "323ee502-cb85-4e65-8ee5-8496a0c77277": {
           "type": "question",
           "settings": {
-            "title": "Can I Get Points For Purchasing Cure Anywhere Other Than Your Website?",
+            "title": "Can I get points for purchasing Cure anywhere other than your website?",
             "answer": "<p>Not at this time. Our loyalty program is currently exclusive to purchases made on curehydration.com.<\/p>"
           }
         },
         "d57209d6-f241-497c-ab5a-410af43fcac1": {
           "type": "question",
           "settings": {
-            "title": "Do I Keep Points If I Return a Product?",
+            "title": "Do I keep points if I return a product?",
             "answer": "<p>No, if you return a product, any points you have accumulated will be reversed.<\/p>"
           }
         },
