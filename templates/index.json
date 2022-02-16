@@ -297,7 +297,8 @@
       "settings": {
         "reveal_on_scroll": false,
         "background": "#ffffff",
-        "text_color": "#baaa9e"
+        "text_color": "#baaa9e",
+        "cycle_speed": 5
       }
     },
     "16390810401838be79": {
