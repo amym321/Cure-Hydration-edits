@@ -346,13 +346,61 @@
             "title": "How Many Points Do I Get For Signing Up?​​",
             "answer": "<p>You automatically get 25 points for creating an account (or if you have already created an account with us).<\/p><p>You will also receive any points for spending that has occurred after the launch of our loyalty program, even if you haven’t created an account yet. If there are orders associated with your email, and then you create an account, we’ll give you those spending points as part of your new membership!<\/p>"
           }
+        },
+        "8adb6d1c-082c-4da4-a974-54ac4eaa810a": {
+          "type": "question",
+          "settings": {
+            "title": "How Do I Earn Points?",
+            "answer": "<p>You can earn 1 point for every $1 you spend on curehydration.com.<\/p><p>Also, certain activities (like following us on Instagram or leaving a product review) can give you extra bonus points. To find out all the ways you can earn points, check out our Rewards Page. Finally, we may run promotions from time to time where there will be unique opportunities to earn points.<\/p>"
+          }
+        },
+        "486d2629-a447-4b04-a337-5fa8a4e116d4": {
+          "type": "question",
+          "settings": {
+            "title": "When Do Points Begin Accumulating?",
+            "answer": "<p>Points began accumulating when we launched the program on October 12, 2021. Any purchases made on or after that date qualify for points, and are logged under your email address. Your points balance will appear if you create, or already have created, an account with this email address under “My Loyalty & Rewards.”<\/p>"
+          }
+        },
+        "6f8ac474-4560-4af0-997c-70ca936d7a8d": {
+          "type": "question",
+          "settings": {
+            "title": "How do I redeem points?",
+            "answer": "<p>Just click \"Redeem Now\" under your points balance. This will generate a unique redemption code that you can copy and paste and then apply at checkout for your next order.<\/p>"
+          }
+        },
+        "772d4d44-c255-4108-8ee6-fcc1f2ae2b13": {
+          "type": "question",
+          "settings": {
+            "title": "Where Can I See My Points Balance?",
+            "answer": "<p>First, log in to your account! Your points balance will be on your rewards page.<\/p>"
+          }
+        },
+        "c8c3fcd6-fc2f-47f7-b727-d4183676667c": {
+          "type": "question",
+          "settings": {
+            "title": "Why Can't I Use All My Points?",
+            "answer": "<p>Points can only be used in 100 point increments. So if you have 100 points, you can use that for $10 off at checkout. 200 points, $20. And so on.<\/p>"
+          }
+        },
+        "44353ef5-3e78-4611-b773-3e3b801252aa": {
+          "type": "question",
+          "settings": {
+            "title": "When Do I Get My Birthday Points?",
+            "answer": "<p>On your birthday! The only instance in which birthday points will be delayed is if your birthday is within 30 days of you signing up for The Cure Club. This is for fraud protection, and you will still get your points after 30 days.<\/p>"
+          }
         }
       },
       "block_order": [
         "1644977464a9536800-0",
         "1644977464a9536800-1",
         "1644977464a9536800-2",
-        "1644977464a9536800-4"
+        "1644977464a9536800-4",
+        "8adb6d1c-082c-4da4-a974-54ac4eaa810a",
+        "486d2629-a447-4b04-a337-5fa8a4e116d4",
+        "6f8ac474-4560-4af0-997c-70ca936d7a8d",
+        "772d4d44-c255-4108-8ee6-fcc1f2ae2b13",
+        "c8c3fcd6-fc2f-47f7-b727-d4183676667c",
+        "44353ef5-3e78-4611-b773-3e3b801252aa"
       ],
       "settings": {
         "show_navigation": false,
