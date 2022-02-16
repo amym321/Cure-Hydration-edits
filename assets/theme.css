@@ -8906,7 +8906,7 @@ input:checked + .popover__choice-label::after,
 
   padding: 20px 24px;
   margin-bottom: 0;
-  background: #f4f2ef;
+  background: #f4f2f1;
 }
 
 .faq__item + .faq__item {
