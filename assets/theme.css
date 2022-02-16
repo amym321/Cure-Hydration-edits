@@ -2679,7 +2679,7 @@ p + .button-group,
 }
 
 .label--custom2 {
-  background: #3E7B8F;
+  background: #3E7B8F !important;
   color: rgb(var(--product-custom-label-2-text-color));
 }
 
