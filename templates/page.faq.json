@@ -139,10 +139,161 @@
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "1644977071c121eca2": {
+      "type": "faq",
+      "blocks": {
+        "164497707168f526e0-0": {
+          "type": "category",
+          "settings": {
+            "title": "Subscription Management"
+          }
+        },
+        "164497707168f526e0-1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I make changes to or cancel my subscription?",
+            "answer": "<p>Absolutely! You can add or remove products, swap flavors, skip shipments, or cancel anytime by logging into your account portal. Need extra help? Email us at hi@curehydration.com.<\/p><p>The cutoff time of when you can modify, skip, or cancel an order is before 12 AM EST on the day your subscription is set to renew.<\/p>"
+          }
+        },
+        "164497707168f526e0-2": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my order that's processing or in transit?",
+            "answer": "<p>If your order has processed through our warehouse, we are not able to cancel it. We apologize for any inconvenience. That said, if you’ve placed an order within the last few hours, we may be able to help! Reach out to <a href=\"mailto:hi@curehydration.com\">hi@curehydration.com<\/a> as soon as possible, and we’ll see what we can do for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164497707168f526e0-0",
+        "164497707168f526e0-1",
+        "164497707168f526e0-2"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497707363a89df2": {
+      "type": "faq",
+      "blocks": {
+        "1644977073c6c0be16-0": {
+          "type": "category",
+          "settings": {
+            "title": "Return Policy"
+          }
+        },
+        "1644977073c6c0be16-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "answer": "<p>We fully stand behind our product and are 100% committed to making sure our customers are happy. If for any reason you are unsatisfied with your order, please reach out to hi@curehydration.com and we'll make it right.<\/p><p>Please note that to ensure the quality and safety of our product, we cannot accept returns. We can offer a replacement or refund on one time purchase orders placed through our website containing one Starter Kit, one Variety Pack or one 14-count pouch , within 30 days of the original purchase date. To expedite your request, please include the following when you contact us at hi@curehydration.com:<\/p><p>your Cure order number2. a brief description of the issue and feedback on your experience3. your preference for a replacement or a refund<\/p><p>While we don’t accept returns or provide refunds for purchases made at retail locations, we recommend that you reach out directly to the retailer’s customer help center. That said, if you have any questions or feedback about Cure products, we’d love to hear from you. Please don’t hesitate to reach out to our team directly.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644977073c6c0be16-0",
+        "1644977073c6c0be16-1"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497713029c5e5ab": {
+      "type": "faq",
+      "blocks": {
+        "1644977130b90e614e-0": {
+          "type": "category",
+          "settings": {
+            "title": "Gift Cards"
+          }
+        },
+        "1644977130b90e614e-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer gift cards?",
+            "answer": "<p>Yes! Gift cards can be purchased directly on <a href=\"http:\/\/curehydration.com\/\" target=\"_blank\">curehydration.com<\/a> for $25-$100 (in increments of $25). Gift cards are valid for one time purchase items made on <a href=\"http:\/\/curehydration.com\/\" target=\"_blank\">curehydration.com<\/a>. Gift cards cannot be utilized for subscription purchases.<\/p><p>When you purchase a gift card, you will receive an email with the gift card code that you can personally forward to the intended recipient.<\/p><p>If you are the recipient of a gift card, you can enter in the gift card code and select apply before proceeding with shipping at checkout.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644977130b90e614e-0",
+        "1644977130b90e614e-1"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16449772307d1bf3bd": {
+      "type": "faq",
+      "blocks": {
+        "16449772309f6ca504-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "16449772309f6ca504-1": {
+          "type": "question",
+          "settings": {
+            "title": "How much does shipping cost?",
+            "answer": "<p>We offer FREE U.S shipping for all domestic orders. We offer free shipping to Canada for orders over $50 USD. For all other international orders we offer free shipping over $100 USD. Should you be looking for faster or additional affordable international shipping options, we encourage you to order Cure from <a href=\"https:\/\/www.shopmayple.com\/collections\/vendors?q=Cure%20Hydration\"><span style=\"text-decoration:underline\">Mayple<\/span><\/a>.<\/p>"
+          }
+        },
+        "16449772309f6ca504-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "16449772309f6ca504-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "16449772309f6ca504-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16449772309f6ca504-0",
+        "16449772309f6ca504-1",
+        "16449772309f6ca504-2",
+        "16449772309f6ca504-3",
+        "16449772309f6ca504-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
-    "faq"
+    "faq",
+    "1644977071c121eca2",
+    "164497707363a89df2",
+    "164497713029c5e5ab",
+    "16449772307d1bf3bd"
   ]
 }
