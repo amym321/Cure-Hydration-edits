@@ -278,34 +278,28 @@
         "1644977310a387b0ba-0": {
           "type": "category",
           "settings": {
-            "title": "Shipping"
+            "title": "Payment"
           }
         },
         "1644977310a387b0ba-1": {
           "type": "question",
           "settings": {
-            "title": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "When is my credit card charged for my subscription?",
+            "answer": "<p>Your card is charged the day your subscription renews and your order processes. If you make any changes after 12 AM EST on your renewal date, your order will have already been processed.<\/p>"
           }
         },
         "1644977310a387b0ba-2": {
           "type": "question",
           "settings": {
-            "title": "How long will it take to get my order?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
-          }
-        },
-        "1644977310a387b0ba-3": {
-          "type": "category",
-          "settings": {
-            "title": "Other"
+            "title": "What forms of payment do you accept?",
+            "answer": "<p>We accept Visa, MasterCard, American Express, and Discover. You can also checkout by utilizing PayPal, Google Pay, or Apple Pay.<\/p>"
           }
         },
         "1644977310a387b0ba-4": {
           "type": "question",
           "settings": {
-            "title": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "How do I update my billing address or credit card on file for my subscription?",
+            "answer": "<p>To update your billing information, sign into your account. Once logged in, click “Manage Subscriptions” on the left-hand side of the screen, then select “Billing Information”. From there, you can edit your billing information by clicking “Edit” or your card on file by selecting “Update card”.<\/p>"
           }
         }
       },
@@ -313,8 +307,52 @@
         "1644977310a387b0ba-0",
         "1644977310a387b0ba-1",
         "1644977310a387b0ba-2",
-        "1644977310a387b0ba-3",
         "1644977310a387b0ba-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497746480cc92da": {
+      "type": "faq",
+      "blocks": {
+        "1644977464a9536800-0": {
+          "type": "category",
+          "settings": {
+            "title": "The Cure Club: Loyalty & Rewards"
+          }
+        },
+        "1644977464a9536800-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>By signing up for an account on our website, you’ll automatically have a loyalty account.<\/p>"
+          }
+        },
+        "1644977464a9536800-2": {
+          "type": "question",
+          "settings": {
+            "title": "I’m a Subscriber, Does That Make Me A Loyalty Member?",
+            "answer": "<p>If you have created an account with us, yes!<\/p><p>Everyone can participate in Loyalty as long as they make an account on our website. With loyalty, you earn points based on purchases and actions.<\/p><p>Being a subscriber means you get discounts when you sign up for a monthly subscription of Cure. These purchases also award you points as a part of the loyalty program.<\/p>"
+          }
+        },
+        "1644977464a9536800-4": {
+          "type": "question",
+          "settings": {
+            "title": "How Many Points Do I Get For Signing Up?​​",
+            "answer": "<p>You automatically get 25 points for creating an account (or if you have already created an account with us).<\/p><p>You will also receive any points for spending that has occurred after the launch of our loyalty program, even if you haven’t created an account yet. If there are orders associated with your email, and then you create an account, we’ll give you those spending points as part of your new membership!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644977464a9536800-0",
+        "1644977464a9536800-1",
+        "1644977464a9536800-2",
+        "1644977464a9536800-4"
       ],
       "settings": {
         "show_navigation": false,
@@ -332,6 +370,7 @@
     "164497707363a89df2",
     "164497713029c5e5ab",
     "16449772307d1bf3bd",
-    "164497731089630eac"
+    "164497731089630eac",
+    "164497746480cc92da"
   ]
 }
