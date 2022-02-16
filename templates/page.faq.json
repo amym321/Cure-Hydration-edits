@@ -388,6 +388,41 @@
             "title": "When Do I Get My Birthday Points?",
             "answer": "<p>On your birthday! The only instance in which birthday points will be delayed is if your birthday is within 30 days of you signing up for The Cure Club. This is for fraud protection, and you will still get your points after 30 days.<\/p>"
           }
+        },
+        "189be82d-ec57-46a3-b59a-6afef7c2353c": {
+          "type": "question",
+          "settings": {
+            "title": "Can I Refer My Friends?",
+            "answer": "<p>Yes, you can refer friends on <a href=\"http:\/\/www.curehydration.com\/pages\/referrals\">www.curehydration.com\/pages\/referrals<\/a>. Anyone you refer will receive $5 off their first $20+ purchase of Cure when they use your code. You will receive 50 points once they make their first purchase.<\/p>"
+          }
+        },
+        "323ee502-cb85-4e65-8ee5-8496a0c77277": {
+          "type": "question",
+          "settings": {
+            "title": "Can I Get Points For Purchasing Cure Anywhere Other Than Your Website?",
+            "answer": "<p>Not at this time. Our loyalty program is currently exclusive to purchases made on curehydration.com.<\/p>"
+          }
+        },
+        "d57209d6-f241-497c-ab5a-410af43fcac1": {
+          "type": "question",
+          "settings": {
+            "title": "Do I Keep Points If I Return a Product?",
+            "answer": "<p>No, if you return a product, any points you have accumulated will be reversed.<\/p>"
+          }
+        },
+        "110f43f2-68dc-4349-8e40-161c917add39": {
+          "type": "question",
+          "settings": {
+            "title": "I Forgot to Use My Points at Checkout, Can I Apply Them Retroactively?",
+            "answer": "<p>No, unfortunately points can not be redeemed after a purchase has already been made.<\/p>"
+          }
+        },
+        "289a1baa-2cb5-4e1c-a778-579ee46e91c7": {
+          "type": "question",
+          "settings": {
+            "title": "I’m A Subscriber, Do I Qualify For The 50 Bonus Points For “First Subscription”?",
+            "answer": "<p>Yes, if you have a current active subscription we already dropped 50 bonus points into your account! If your subscription is not currently active, and you renew it, you will receive your 50 points.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -400,7 +435,12 @@
         "6f8ac474-4560-4af0-997c-70ca936d7a8d",
         "772d4d44-c255-4108-8ee6-fcc1f2ae2b13",
         "c8c3fcd6-fc2f-47f7-b727-d4183676667c",
-        "44353ef5-3e78-4611-b773-3e3b801252aa"
+        "44353ef5-3e78-4611-b773-3e3b801252aa",
+        "189be82d-ec57-46a3-b59a-6afef7c2353c",
+        "323ee502-cb85-4e65-8ee5-8496a0c77277",
+        "d57209d6-f241-497c-ab5a-410af43fcac1",
+        "110f43f2-68dc-4349-8e40-161c917add39",
+        "289a1baa-2cb5-4e1c-a778-579ee46e91c7"
       ],
       "settings": {
         "show_navigation": false,
