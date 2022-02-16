@@ -171,7 +171,7 @@
       ],
       "settings": {
         "show_navigation": false,
-        "title": "FAQ",
+        "title": "",
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -200,7 +200,7 @@
       ],
       "settings": {
         "show_navigation": false,
-        "title": "FAQ",
+        "title": "",
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -229,7 +229,7 @@
       ],
       "settings": {
         "show_navigation": false,
-        "title": "FAQ",
+        "title": "",
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -254,17 +254,54 @@
         "16449772309f6ca504-2": {
           "type": "question",
           "settings": {
+            "title": "How long does it take to receive my order with free shipping?",
+            "answer": "<p>For orders placed on <a href=\"http:\/\/curehydration.com\/\" target=\"_blank\">curehydration.com<\/a>, most U.S. orders should arrive within 4-8 business days. Canadian and all other international orders should arrive within 10-14 business days.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16449772309f6ca504-0",
+        "16449772309f6ca504-1",
+        "16449772309f6ca504-2"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "164497731089630eac": {
+      "type": "faq",
+      "blocks": {
+        "1644977310a387b0ba-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "1644977310a387b0ba-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "1644977310a387b0ba-2": {
+          "type": "question",
+          "settings": {
             "title": "How long will it take to get my order?",
             "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
           }
         },
-        "16449772309f6ca504-3": {
+        "1644977310a387b0ba-3": {
           "type": "category",
           "settings": {
             "title": "Other"
           }
         },
-        "16449772309f6ca504-4": {
+        "1644977310a387b0ba-4": {
           "type": "question",
           "settings": {
             "title": "Any question?",
@@ -273,15 +310,15 @@
         }
       },
       "block_order": [
-        "16449772309f6ca504-0",
-        "16449772309f6ca504-1",
-        "16449772309f6ca504-2",
-        "16449772309f6ca504-3",
-        "16449772309f6ca504-4"
+        "1644977310a387b0ba-0",
+        "1644977310a387b0ba-1",
+        "1644977310a387b0ba-2",
+        "1644977310a387b0ba-3",
+        "1644977310a387b0ba-4"
       ],
       "settings": {
         "show_navigation": false,
-        "title": "FAQ",
+        "title": "",
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -294,6 +331,7 @@
     "1644977071c121eca2",
     "164497707363a89df2",
     "164497713029c5e5ab",
-    "16449772307d1bf3bd"
+    "16449772307d1bf3bd",
+    "164497731089630eac"
   ]
 }
