@@ -77,6 +77,8 @@
 </section>
 
 <script type="text/javascript">
+  var logo_speed = '{{section.settings.cycle_speed}}'*1000;
+
   $(document).ready(function(){
     $('.slider-for').slick({
       slidesToShow: 1,
@@ -84,7 +86,7 @@
       fade: true,
       asNavFor: '.slider-nav',
       autoplay: true,
-      autoplaySpeed: 6000
+      autoplaySpeed: logo_speed
       });
     if (window.screen.width <= 1000) {
       $('.slider-nav').slick({
@@ -164,6 +166,16 @@
       "id": "text_color",
       "label": "Text",
       "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 4,
+      "max": 20,
+      "step": 1,
+      "unit": "sec",
+      "label": "Auto rotate between logos. Change logos every",
+      "default": 6
     }
   ],
   "presets": [
