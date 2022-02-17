@@ -10860,7 +10860,6 @@ input:checked + .popover__choice-label::after,
 .logo-list {
   display: block;
   position: relative;
-  margin-top: -50px;
 }
 
 .logo-list__list {
