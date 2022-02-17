@@ -6,9 +6,9 @@
         "3fb7f7ef-8a15-4b83-90ce-f9f39a1a1e1b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_500-Home.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/211122_CL_Cure_01_Berry_078_Mobile.jpg",
-            "text_position": "top_right",
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup-Header.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/211122_CL_Cure_01_Berry_Mobile.jpg",
+            "text_position": "top_left",
             "subheading": "Easy, daily health rituals that you can feel good about.",
             "title": "Plant-based functional drink mixes",
             "slide_text": "",
@@ -461,7 +461,7 @@
         "item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/211122_CL_Cure_11_GroupExtra_818_7f2419bf-ba5b-4c92-89eb-e0de8f9ec976.jpg",
+            "image": "shopify:\/\/shop_images\/211122_CL_Cure_11_GroupExtra_818_SL-_1.jpg",
             "label": "Hydration",
             "title": "Hydration is the foundation of health. But science shows that staying hydrated often requires more than water alone. That’s why we made our Hydrating Electrolyte Mix.",
             "content": "",

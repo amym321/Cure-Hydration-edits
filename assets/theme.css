@@ -2679,7 +2679,7 @@ p + .button-group,
 }
 
 .label--custom2 {
-  background: #3E7B8F;
+  background: #3E7B8F !important;
   color: rgb(var(--product-custom-label-2-text-color));
 }
 
@@ -2711,6 +2711,7 @@ p + .button-group,
     font-size: 12px;
   }
 }
+ 
 
 /**
  * -------------------------------------------------------------
@@ -10906,6 +10907,10 @@ input:checked + .popover__choice-label::after,
     margin-left: 120px;
       margin-right: 120px;
   }
+    
+    .logo-list {
+  margin-top: -50px;
+}
 
   /* Scroller variation */
   .logo-list--carousel .logo-list__list {
