@@ -2,13 +2,26 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": false,
         "page_width": "large"
       }
+    },
+    "1645121468a5063dd5": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div id=\"storemapper\" style=\"width:100%;\">\n  <p>Store Locator is loading from <a href=\"https:\/\/www.storemapper.co\">Storemapper store locator app<\/a>...<\/p>\n<\/div>\n<script data-storemapper-start=\"2022,02,17\" data-storemapper-id=\"14599\">\n        (function() {var script = document.createElement('script');\n          script.type  = 'text\/javascript';script.async = true;\n          script.src = 'https:\/\/www.storemapper.co\/js\/widget-3.min.js';\n          var entry = document.getElementsByTagName('script')[0];\n          entry.parentNode.insertBefore(script, entry);}\n        ());\n<\/script>",
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1645121468a5063dd5"
   ]
 }
