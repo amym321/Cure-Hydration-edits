@@ -1,26 +1,27 @@
+{% comment%} modified function structure and speed - am {% endcomment%}
 <script>
-  $( window ).on( "load", function() {
-   	var maxHeight = -1;
+  window.addEventListener('load', function() {
+    if (typeof $ == 'function') {
+      var maxHeight = -1;
 
-	$('.custom-testimonial-item').each(function() {
-    maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
-    });
+      $('.custom-testimonial-item').each(function() {
+      maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+      });
 
-    $('.custom-testimonial-item').each(function() {
-    $(this).height(maxHeight);
-    });
-  });
+      $('.custom-testimonial-item').each(function() {
+      $(this).height(maxHeight);
+      });
         
-  $( window ).on( "load", function() {
-   	var maxHeight = -1;
+      var maxHeight = -1;
 
-	$('.custom-container').each(function() {
-    maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
-    });
+      $('.custom-container').each(function() {
+      maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+      });
 
-    $('.custom-container').each(function() {
-    $(this).height(maxHeight);
-    });
+      $('.custom-container').each(function() {
+      $(this).height(maxHeight);
+      });
+    }
   });
         
 </script>

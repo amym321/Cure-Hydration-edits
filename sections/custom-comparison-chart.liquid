@@ -72,7 +72,7 @@
 
         <div class="image-overlay__content-wrapper">
           <div class="image-overlay__content content-box content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} content-box--{{ text_alignment }} text-container custom-chart-info-box">
-          	{%- if section.settings.title != blank -%}
+              {%- if section.settings.title != blank -%}
               <h3 class="heading h2 custom-chart-info-heading">
                 <span>{{ section.settings.title }}</span>
               </h3>
@@ -163,7 +163,7 @@
          </div>
           
           <div class="custom-chart-container chart-mobile">
-          	<table class="custom-chart-table">
+              <table class="custom-chart-table">
             <thead class="custom-chart-head">
               <tr class="custom-chart-row">
                 <th class="custom-chart-head-cell cure-cell"><img src="https://cdn.shopify.com/s/files/1/0605/9730/5590/files/curelogoblue.png?v=1642362022" class="chart-cure-logo"></th>                
@@ -171,8 +171,8 @@
                   <div class="custom-chart-head-cell-value">{{ section.settings.chart_c2r1_value }}</div>
                   <span class="chart-next">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 				  viewBox="0 0 407.436 407.436" style="enable-background:new 0 0 407.436 407.436;" xml:space="preserve">
-						<polygon points="112.814,0 91.566,21.178 273.512,203.718 91.566,386.258 112.814,407.436 315.869,203.718 "/>
+                       viewBox="0 0 407.436 407.436" style="enable-background:new 0 0 407.436 407.436;" xml:space="preserve">
+                        <polygon points="112.814,0 91.566,21.178 273.512,203.718 91.566,386.258 112.814,407.436 315.869,203.718 "/>
                     </svg>
                   </span>
                 </th>             
@@ -233,30 +233,32 @@
   </div>
 </section>
 
+{% comment%} modified function structure and speed - am {% endcomment%}
 <script>
-$('document').ready(function() {
-    var chartIndex = 0;
-  	var chartElements = $('.chart-mobile .custom-chart-head-cell-value, .chart-mobile .first-row .comparison .custom-chart-data-cell-value, .chart-mobile .second-row .comparison .custom-chart-data-cell-value, .chart-mobile .last-row .comparison .custom-chart-data-cell-label');
-    const tableHead = ["{{ section.settings.chart_c3r1_value }}", "{{ section.settings.chart_c4r1_value }}", "{{ section.settings.chart_c2r1_value }}"];
-    const tableBodyR2Value = ["{{ section.settings.chart_c3r2_value }}", "{{ section.settings.chart_c4r2_value }}", "{{ section.settings.chart_c2r2_value }}"];
-    const tableBodyR3Value = ["{{ section.settings.chart_c3r3_value }}", "{{ section.settings.chart_c4r3_value }}", "{{ section.settings.chart_c2r3_value }}"];
-    const tableBodyR4Value = ["{{ section.settings.chart_c3r4_label }}", "{{ section.settings.chart_c4r4_label }}", "{{ section.settings.chart_c2r4_label }}"];
+  window.addEventListener('load', function() {
+    if (typeof $ == 'function') {
+      var chartIndex = 0;
+      var chartElements = $('.chart-mobile .custom-chart-head-cell-value, .chart-mobile .first-row .comparison .custom-chart-data-cell-value, .chart-mobile .second-row .comparison .custom-chart-data-cell-value, .chart-mobile .last-row .comparison .custom-chart-data-cell-label');
+      const tableHead = ["{{ section.settings.chart_c3r1_value }}", "{{ section.settings.chart_c4r1_value }}", "{{ section.settings.chart_c2r1_value }}"];
+      const tableBodyR2Value = ["{{ section.settings.chart_c3r2_value }}", "{{ section.settings.chart_c4r2_value }}", "{{ section.settings.chart_c2r2_value }}"];
+      const tableBodyR3Value = ["{{ section.settings.chart_c3r3_value }}", "{{ section.settings.chart_c4r3_value }}", "{{ section.settings.chart_c2r3_value }}"];
+      const tableBodyR4Value = ["{{ section.settings.chart_c3r4_label }}", "{{ section.settings.chart_c4r4_label }}", "{{ section.settings.chart_c2r4_label }}"];
 
-    $('.chart-next').on('click', function() {
+      $('.chart-next').on('click', function() {
         $(chartElements).fadeOut(function(){
-        $('.chart-mobile .custom-chart-head-cell-value').html(tableHead[chartIndex]).fadeIn();
-        $('.chart-mobile .first-row .comparison .custom-chart-data-cell-value').html(tableBodyR2Value[chartIndex]).fadeIn();
-        $('.chart-mobile .second-row .comparison .custom-chart-data-cell-value').html(tableBodyR3Value[chartIndex]).fadeIn();
-        $('.chart-mobile .last-row .comparison .custom-chart-data-cell-label').html(tableBodyR4Value[chartIndex]).fadeIn();
-        chartIndex++;
+          $('.chart-mobile .custom-chart-head-cell-value').html(tableHead[chartIndex]).fadeIn();
+          $('.chart-mobile .first-row .comparison .custom-chart-data-cell-value').html(tableBodyR2Value[chartIndex]).fadeIn();
+          $('.chart-mobile .second-row .comparison .custom-chart-data-cell-value').html(tableBodyR3Value[chartIndex]).fadeIn();
+          $('.chart-mobile .last-row .comparison .custom-chart-data-cell-label').html(tableBodyR4Value[chartIndex]).fadeIn();
+          chartIndex++;
 
-        if (chartIndex >= tableHead.length) {
-            chartIndex = 0;
-        }
-
-    });
-  });
-});  
+          if (chartIndex >= tableHead.length) {
+              chartIndex = 0;
+          }
+        });
+      });
+    }
+  });  
 </script>
 
 
@@ -295,7 +297,7 @@ $('document').ready(function() {
       "label": "Image",
       "info": "2000 x 980px .jpg recommended"
     },
-	{
+    {
       "type": "text",
       "id": "title",
       "label": "Heading",
@@ -379,31 +381,31 @@ $('document').ready(function() {
       "type": "header",
       "content": "Chart - Cure"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c1r2_value",
       "label": "Row 2 Value",
       "default": "25"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c1r2_label",
       "label": "Row 2 Label",
       "default": "calories"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c1r3_value",
       "label": "Row 3 Value",
       "default": "0g"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c1r3_label",
       "label": "Row 3 Label",
       "default": "added sugar"
     },
-	{
+    {
       "type": "textarea",
       "id": "chart_c1r4_label",
       "label": "Row 4 Text",
@@ -413,123 +415,123 @@ $('document').ready(function() {
       "type": "header",
       "content": "Chart - Column 2"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c2r1_value",
       "label": "Row 1",
       "default": "Sports Drinks"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c2r2_value",
       "label": "Row 2 Value",
       "default": "112"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c2r2_label",
       "label": "Row 2 Label",
       "default": "calories"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c2r3_value",
       "label": "Row 3 Value",
       "default": "27g"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c2r3_label",
       "label": "Row 3 Label",
       "default": "added sugar"
     },
-	{
+    {
       "type": "textarea",
       "id": "chart_c2r4_label",
       "label": "Row 4 Text",
       "default": "Added sugar, low in electrolytes, and made with artificial ingredients"
     },
-	{
+    {
       "type": "header",
       "content": "Chart - Column 3"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c3r1_value",
       "label": "Row 1",
       "default": "Coconut Water"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c3r2_value",
       "label": "Row 2 Value",
       "default": "120"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c3r2_label",
       "label": "Row 2 Label",
       "default": "calories"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c3r3_value",
       "label": "Row 3 Value",
       "default": "28g"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c3r3_label",
       "label": "Row 3 Label",
       "default": "added sugar"
     },
-	{
+    {
       "type": "textarea",
       "id": "chart_c3r4_label",
       "label": "Row 4 Text",
       "default": "Unbalanced electrolytes (low sodium, high sugar and potassium)"
     },
-	{
+    {
       "type": "header",
       "content": "Chart - Column 4"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c4r1_value",
       "label": "Row 1",
       "default": "Other Hydration Mixes"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c4r2_value",
       "label": "Row 2 Value",
       "default": "45"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c4r2_label",
       "label": "Row 2 Label",
       "default": "calories"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c4r3_value",
       "label": "Row 3 Value",
       "default": "11g"
     },
-	{
+    {
       "type": "text",
       "id": "chart_c4r3_label",
       "label": "Row 3 Label",
       "default": "added sugar"
     },
-	{
+    {
       "type": "textarea",
       "id": "chart_c4r4_label",
       "label": "Row 4 Text",
       "default": "Synthetic ingredients and added sugars"
     },
-	{
+    {
       "type": "text",
       "id": "chart_bottom_info",
       "label": "Chart bottom info line",

@@ -76,38 +76,41 @@
   </div>
 </section>
 
+{% comment%} modified function structure - am {% endcomment%}
 <script type="text/javascript">
   var logo_speed = '{{section.settings.cycle_speed}}'*1000;
 
-  $(document).ready(function(){
-    $('.slider-for').slick({
-      slidesToShow: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav',
-      autoplay: true,
-      autoplaySpeed: logo_speed
-      });
-    if (window.screen.width <= 1000) {
-      $('.slider-nav').slick({
-        slidesToShow: 2,
-        asNavFor: '.slider-for',
+  window.addEventListener('load', function() {
+    if (typeof $ == 'function') {
+      $('.slider-for').slick({
+        slidesToShow: 1,
         arrows: false,
-        dots: false,
-        centerMode: false,
-        focusOnSelect: true
-      });
-      console.log('1');
-    } else {
-      $('.slider-nav').slick({
-        slidesToShow: 5,
-        asNavFor: '.slider-for',
-        arrows: false,
-        dots: false,
-        centerMode: true,
-        focusOnSelect: true
-      });
-      console.log('2');
+        fade: true,
+        asNavFor: '.slider-nav',
+        autoplay: true,
+        autoplaySpeed: logo_speed
+        });
+      if (window.screen.width <= 1000) {
+        $('.slider-nav').slick({
+          slidesToShow: 2,
+          asNavFor: '.slider-for',
+          arrows: false,
+          dots: false,
+          centerMode: false,
+          focusOnSelect: true
+        });
+        console.log('1');
+      } else {
+        $('.slider-nav').slick({
+          slidesToShow: 5,
+          asNavFor: '.slider-for',
+          arrows: false,
+          dots: false,
+          centerMode: true,
+          focusOnSelect: true
+        });
+        console.log('2');
+      }
     }
   });
 </script>

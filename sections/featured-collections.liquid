@@ -165,18 +165,23 @@
   </div>
 </section>
 
+{% comment%} modified function structure and speed - am {% endcomment%}
 <script>
 
-  $('body').on('click', '.custom-heading-change:first-of-type', ({
-      currentTarget
-  }) => {
-    $(currentTarget).parents('.section__header').find('.heading.h2').text('{{ section.settings.title }}');
-  });
-  
-    $('body').on('click', '.custom-heading-change:nth-of-type(2)', ({
-      currentTarget
-  }) => {
-    $(currentTarget).parents('.section__header').find('.heading.h2').text('{{ section.settings.title2 }}');
+  window.addEventListener('load', function() {
+    if (typeof $ == 'function') {
+      $('body').on('click', '.custom-heading-change:first-of-type', ({
+          currentTarget
+      }) => {
+        $(currentTarget).parents('.section__header').find('.heading.h2').text('{{ section.settings.title }}');
+      });
+
+        $('body').on('click', '.custom-heading-change:nth-of-type(2)', ({
+          currentTarget
+      }) => {
+        $(currentTarget).parents('.section__header').find('.heading.h2').text('{{ section.settings.title2 }}');
+      });
+    }
   });
 
 </script>
