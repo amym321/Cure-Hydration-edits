@@ -10907,6 +10907,10 @@ input:checked + .popover__choice-label::after,
     margin-left: 120px;
       margin-right: 120px;
   }
+    
+    .logo-list {
+  margin-top: -50px;
+}
 
   /* Scroller variation */
   .logo-list--carousel .logo-list__list {
