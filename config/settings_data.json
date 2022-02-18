@@ -444,7 +444,7 @@
           "logo_max_width": 140,
           "mobile_logo_max_width": 100,
           "image": "shopify:\/\/shop_images\/cure-card.jpg",
-          "background": "#f1edea",
+          "background": "#f5f2f1",
           "content_background": "#ffffff",
           "text_color": "#baaa9e"
         }
