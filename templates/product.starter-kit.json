@@ -173,29 +173,6 @@
         "overlay_opacity": 30
       }
     },
-    "1637538408cbd8246f": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Cure-Chart.jpg",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "1638225216437556e6": {
       "type": "logo-list",
       "blocks": {
@@ -270,7 +247,7 @@
         "16375385805a38c1aa-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/211122_CL_Cure_01_Berry_064.jpg",
+            "image": "shopify:\/\/shop_images\/StarterKit-0P0A1374-Web-Square.jpg",
             "tab_label": "hydration",
             "subheading": "",
             "title": "Hydration is the foundation of health.",
@@ -303,26 +280,6 @@
         "image_position": "right",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "163753537052501cde": {
-      "type": "image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/211122_CL_Cure_08_BoxGroup_500.jpg",
-        "subheading": "",
-        "title": "Plant-Based Formula",
-        "content": "<p>Cure’s plant-based formula has NO added sugars, just natural fruit flavors you’ll love to drink. <\/p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_position": "left",
-        "text_alignment": "left",
-        "text_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -465,73 +422,15 @@
         "background": "#ffffff",
         "text_color": "#baaa9e"
       }
-    },
-    "1638225006ac82e0fa": {
-      "type": "faq",
-      "disabled": true,
-      "blocks": {
-        "1638225006182f908f-0": {
-          "type": "category",
-          "disabled": true,
-          "settings": {
-            "title": "Shipping"
-          }
-        },
-        "1638225006182f908f-1": {
-          "type": "question",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
-          }
-        },
-        "1638225006182f908f-2": {
-          "type": "question",
-          "settings": {
-            "title": "How long will it take to get my order?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
-          }
-        },
-        "1638225006182f908f-3": {
-          "type": "category",
-          "disabled": true,
-          "settings": {
-            "title": "Other"
-          }
-        },
-        "1638225006182f908f-4": {
-          "type": "question",
-          "settings": {
-            "title": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1638225006182f908f-0",
-        "1638225006182f908f-1",
-        "1638225006182f908f-2",
-        "1638225006182f908f-3",
-        "1638225006182f908f-4"
-      ],
-      "settings": {
-        "show_navigation": true,
-        "title": "",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "main",
     "product-content",
     "1642713597122f9e2e",
-    "1637538408cbd8246f",
     "1638225216437556e6",
     "16375385810485e2ab",
-    "163753537052501cde",
     "16436016619c386356",
-    "1634674522cc878f94",
-    "1638225006ac82e0fa"
+    "1634674522cc878f94"
   ]
 }

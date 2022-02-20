@@ -12055,9 +12055,9 @@ input:checked + .popover__choice-label::after,
 
 .product-meta {
   display: block;
-  margin: 24px 0;
+  margin: 0px 0;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgb(var(--border-color));
+  border-bottom: none;
 }
 
 .product-meta__price-list-container {
