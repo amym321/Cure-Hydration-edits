@@ -772,10 +772,16 @@ p a:not(.button),
 .blockquote,
 .rte blockquote {
   position: relative;
-  padding: 24px 24px 0;
+  padding-top: 24px;
   font-size: var(--heading-large-font-size);
   line-height: 1.1666666667;
   letter-spacing: -0.3px;
+}
+@media screen and (min-width: 969px) {
+  .blockquote,
+  .rte blockquote {
+    padding: 24px 24px 0;
+  }
 }
 
 [dir="ltr"] .blockquote::before,[dir="ltr"] 
