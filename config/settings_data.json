@@ -23,6 +23,8 @@
     "product_sold_out_accent": "#3e7b8f",
     "product_custom_label_background": "#baaa9e",
     "product_custom_label_2_background": "#3e7b8f",
+    "product_custom_label_new_flavor_background": "#ffffff",
+    "product_custom_label_new_flavor_text": "#baaa9e",
     "product_in_stock_text_color": "#2e9e7b",
     "product_low_stock_text_color": "#de2a2a",
     "heading_font": "sans-serif",
