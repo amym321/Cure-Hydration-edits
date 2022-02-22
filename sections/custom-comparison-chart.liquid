@@ -243,12 +243,16 @@
       const tableBodyR2Value = ["{{ section.settings.chart_c3r2_value }}", "{{ section.settings.chart_c4r2_value }}", "{{ section.settings.chart_c2r2_value }}"];
       const tableBodyR3Value = ["{{ section.settings.chart_c3r3_value }}", "{{ section.settings.chart_c4r3_value }}", "{{ section.settings.chart_c2r3_value }}"];
       const tableBodyR4Value = ["{{ section.settings.chart_c3r4_label }}", "{{ section.settings.chart_c4r4_label }}", "{{ section.settings.chart_c2r4_label }}"];
+      const tableBodyR2Label = ["{{ section.settings.chart_c3r2_label }}", "{{ section.settings.chart_c4r2_label }}", "{{ section.settings.chart_c2r2_label }}"];
+      const tableBodyR3Label = ["{{ section.settings.chart_c3r3_label }}", "{{ section.settings.chart_c4r3_label }}", "{{ section.settings.chart_c2r3_label }}"];                   
 
       $('.chart-next').on('click', function() {
         $(chartElements).fadeOut(function(){
           $('.chart-mobile .custom-chart-head-cell-value').html(tableHead[chartIndex]).fadeIn();
           $('.chart-mobile .first-row .comparison .custom-chart-data-cell-value').html(tableBodyR2Value[chartIndex]).fadeIn();
+          $('.chart-mobile .first-row .comparison .custom-chart-data-cell-label').html(tableBodyR2Label[chartIndex]).fadeIn();
           $('.chart-mobile .second-row .comparison .custom-chart-data-cell-value').html(tableBodyR3Value[chartIndex]).fadeIn();
+          $('.chart-mobile .second-row .comparison .custom-chart-data-cell-label').html(tableBodyR3Label[chartIndex]).fadeIn();
           $('.chart-mobile .last-row .comparison .custom-chart-data-cell-label').html(tableBodyR4Value[chartIndex]).fadeIn();
           chartIndex++;
 
