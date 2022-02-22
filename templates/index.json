@@ -87,7 +87,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Cure-StarterKit-0015-WebBanner.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Cure-Starter-MobileBanner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Cure-StarterKit-0015-MobileBanner.jpg",
             "text_position": "top_left",
             "subheading": "Not sure what flavor is for you?",
             "title": "Try our Starter Kit",
