@@ -529,8 +529,8 @@
     "1642627491015e6f99": {
       "type": "rich-text",
       "settings": {
-        "subheading": "What's your Flavor?",
-        "title": "Our Hydrating Electrolyte Mix comes in a variety of flavors to ensure there is a Cure for everyone.",
+        "subheading": "",
+        "title": "What's your Flavor?",
         "content": "",
         "button_text": "",
         "button_link": "",
@@ -563,7 +563,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "title2": "Collection 2 Heading",
+        "title2": "",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
