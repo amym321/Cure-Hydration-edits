@@ -34,7 +34,7 @@
     {%- for tag in product.tags -%}
       {%- if tag contains '__label' -%}
   		<div class="custom-label-container">
-          <span class="label label--custom{% cycle 'label-group': '', '2' %}">{{ tag | split: ':' | last }}</span>
+          <span class="label label--custom{% cycle 'label-group': '', '2' %} {% if tag contains 'Best Seller' %}label--bestseller{% elsif tag contains 'Flavor' %}label--new-flavor{% endif %}">{{ tag | split: ':' | last }}</span>
         </div>
       {%- endif -%}
     {%- endfor -%}
