@@ -119,8 +119,77 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "1645582179545bfbf5": {
+      "type": "logo-list",
+      "blocks": {
+        "1645582179b620f014-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_SCIENCEBACKED_WHITE_TEXT.png",
+            "link": ""
+          }
+        },
+        "1645582179b620f014-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_PLANT_WHITE_TEXT.png",
+            "link": ""
+          }
+        },
+        "1645582179b620f014-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NONGMO_WHITE_TEXT.png",
+            "link": ""
+          }
+        },
+        "1645582179b620f014-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_NOSUGAR_WHITE_TEXT.png",
+            "link": ""
+          }
+        },
+        "1645582179b620f014-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_VEGAN_WHITE_TEXT.png",
+            "link": ""
+          }
+        },
+        "1645582179b620f014-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CURE_STYLEGUIDE_ICON_GLUTENFREE_WHITE_TEXT.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645582179b620f014-0",
+        "1645582179b620f014-1",
+        "1645582179b620f014-2",
+        "1645582179b620f014-3",
+        "1645582179b620f014-4",
+        "1645582179b620f014-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#3e7b8f",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
     "164201542823e3eefd": {
       "type": "logo-list-custom",
+      "disabled": true,
       "blocks": {
         "7c8c03b7-5dfe-4610-ac56-ea0cc41dcc1c": {
           "type": "logo",
@@ -330,7 +399,7 @@
         "image": "shopify:\/\/shop_images\/Cure-backedbyscience.jpg",
         "subheading": "",
         "title": "Backed by <br> Science",
-        "content": "<p>Our products are scientifically proven to be effective.  Cure gives you everything you need and nothing more.<\/p>",
+        "content": "<p>Cure is formulated using data from clinical studies and meticulously reviewed by our medical advisory board.<\/p>",
         "button_text": "Learn More",
         "button_link": "shopify:\/\/pages\/science-backed-hydration",
         "link_style": "button",
@@ -665,6 +734,7 @@
   },
   "order": [
     "slideshow",
+    "1645582179545bfbf5",
     "164201542823e3eefd",
     "featured-collections",
     "1642353324ee7a7c6a",
