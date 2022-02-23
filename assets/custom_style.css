@@ -82,7 +82,7 @@
   .custom-image-text--section-wrapper .section__header,
   .custom-image-text--section-wrapper .image_wrapper,
   .custom-image-text--section-wrapper .bottom_content_wrap{
-    max-width: 1170px;
+    max-width: 1570px;
     margin-left: calc(var(--grid-column-width) + var(--grid-gap));
     margin-right: calc(var(--grid-column-width) + var(--grid-gap));
   }  
