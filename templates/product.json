@@ -12,8 +12,8 @@
           "type": "variant_picker",
           "settings": {
             "hide_sold_out_variants": true,
-            "selector_mode": "dropdown",
-            "color_mode": "dropdown",
+            "selector_mode": "block",
+            "color_mode": "block",
             "size_chart_page": ""
           }
         },
@@ -47,7 +47,7 @@
         "62ab0f50-5902-4417-a014-9b1c060299c2"
       ],
       "settings": {
-        "show_vendor": false,
+        "show_vendor": true,
         "show_sku": false,
         "show_taxes_included": false,
         "show_product_rating": false,
