@@ -147,7 +147,7 @@
               <label class="input__block-label" for="product-select-{{ section.id }}-{{ product.id }}">{{ 'product.form.variant' | t }}</label>
 
               <div class="select-wrapper">
-                <select class="select" autocomplete="off" id="product-select-{{ section.id }}-{{ product.id }}" name="id" form="{{ product_form_id }}">
+                <select class="select" autocomplete="off" id="product-select-{{ section.id }}-{{ product.id }}" name="id" data-productid="{{ product.id }}" form="{{ product_form_id }}">
                   {%- for variant in product.variants -%}
                     <option {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %} {% unless variant.available %}disabled="disabled"{% endunless %} value="{{ variant.id }}" data-sku="{{ variant.sku }}">{{ variant.title }} - {{ variant.price | money }}</option>
                   {%- endfor -%}
@@ -361,8 +361,8 @@
       {%- when 'buy_buttons' -%}
         {%- if request.page_type != 'password' -%}
           <div class="product-form__buy-buttons" {{ block.shopify_attributes }}>
-            {%- form 'product', product, is: 'product-form', id: product_form_id -%}
-              <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
+            {%- form 'product', product, data-productid: product.id, is: 'product-form', id: product_form_id -%}
+              <input type="hidden" disabled name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
 
               <product-payment-container form-id="{{ product_form_id }}" {% if update_url %}id="MainPaymentContainer"{% endif %} class="product-form__payment-container" {{ block.shopify_attributes }}>
                 <button id="AddToCart" type="submit" is="loader-button" {% unless block.settings.show_payment_button and template.suffix != 'quick-buy-popover' %}data-use-primary{% endunless %} data-product-add-to-cart-button data-button-content="{% if product.template_suffix == 'pre-order' %}{{ 'product.form.pre_order' | t | escape }}{% else %}{{ 'product.form.add_to_cart' | t | escape }}{% endif %}" class="product-form__add-button button {% unless product.selected_or_first_available_variant.available %}button--ternary{% else %}{% if block.settings.show_payment_button and template.suffix != 'quick-buy-popover' %}button--secondary{% else %}button--primary{% endif %}{% endunless %} button--full" {% unless product.selected_or_first_available_variant.available %}disabled{% endunless %}>
