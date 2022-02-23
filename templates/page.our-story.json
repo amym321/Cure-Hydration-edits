@@ -115,13 +115,12 @@
     },
     "16430022133f43b3d0": {
       "type": "our-values",
-      "disabled": true,
       "blocks": {
         "d708db0a-ae08-412a-800d-82c06beb5504": {
           "type": "block",
           "settings": {
-            "title": "Simple",
-            "content": "<p>Easy-to-keep health rituals you can feel great about. Because it’s the small, consistent habits that make the biggest impact<\/p>"
+            "title": "Effective",
+            "content": "<p>Functional products to support your daily health and wellbeing. <br\/>Based on scientific data and designed for real results you can actually feel.<\/p>"
           }
         },
         "b23c99e1-995a-41f3-9691-28575372706a": {
@@ -150,6 +149,7 @@
     },
     "164469906732db0da9": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "1644699067e6599872-0": {
           "type": "item",
