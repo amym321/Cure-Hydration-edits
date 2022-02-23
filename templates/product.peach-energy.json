@@ -77,7 +77,7 @@
           "type": "content",
           "settings": {
             "title": "Description",
-            "content": "<p><strong>Named Best Hydrating Drink Mix by Women's Health<\/strong><\/p><p>+ Hydrating electrolyte drink mix made with organic & plant-based ingredients<\/p><p>+ Based on the World Health Organization’s ORS (Oral Rehydration Solution) which has been proven to hydrate as effectively as an IV drip<\/p><p>+ Replenishes electrolytes lost during exercise, illness, travel and alcohol consumption<\/p><p>+ 4x the electrolytes of leading sports drinks<\/p><p>+ No added sugar or artificial sweeteners<\/p><p>+ Made for everyone! Adults and children 1 or older<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.description | metafield_tag }}<\/p>",
             "page": ""
           }
         },
