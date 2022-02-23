@@ -96,39 +96,13 @@
             "content": "",
             "page": "when-to-take"
           }
-        },
-        "c64e5ef9-58e1-4bec-87fe-4afae0375aa0": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "title": "How To Make",
-            "content": "<p>sergsrtgrg<\/p>",
-            "page": "how-to-make"
-          }
-        },
-        "572cfe28-1313-4f6d-b273-67fe17637822": {
-          "type": "trust",
-          "disabled": true,
-          "settings": {
-            "icon_1": "picto-love",
-            "title_1": "Shipping & Returns",
-            "content_1": "<p>Add text about your shipping policy<\/p>",
-            "icon_2": "picto-warranty",
-            "title_2": "Warranty",
-            "content_2": "<p>Add text about your product warranty<\/p>",
-            "icon_3": "picto-secure-payment",
-            "title_3": "Secure Payment",
-            "content_3": "<p>Add text about your payment<\/p>"
-          }
         }
       },
       "block_order": [
         "52f2a197-b825-4dce-a6be-699f7ddb89af",
         "07e00409-8a75-4778-85a7-da2c95564c01",
         "cf3d2e2e-c92f-42e4-8881-672a479832ae",
-        "397a5fc9-f60c-434f-8e35-ec31c1bddca9",
-        "c64e5ef9-58e1-4bec-87fe-4afae0375aa0",
-        "572cfe28-1313-4f6d-b273-67fe17637822"
+        "397a5fc9-f60c-434f-8e35-ec31c1bddca9"
       ],
       "settings": {
       }
