@@ -69,8 +69,8 @@
           "type": "featured_products",
           "settings": {
             "title": "You might also like...",
-            "product_1": "ginger-turmeric",
-            "product_2": "grapefruit"
+            "product_1": "{{ block.settings.product_2.metafields.my_fields.you_might_also_like_1.value }}",
+            "product_2": "{{ block.settings.product_1.metafields.my_fields.you_might_also_like_2.value }}"
           }
         },
         "07e00409-8a75-4778-85a7-da2c95564c01": {
