@@ -330,6 +330,7 @@
     },
     "16436016619c386356": {
       "type": "real-ingredients",
+      "disabled": true,
       "blocks": {
         "a5be64aa-305e-4439-b103-1a99f9bed859": {
           "type": "ingredient",
