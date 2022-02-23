@@ -12924,7 +12924,7 @@ shopify-payment-terms {
 }
 
 .product-item__link {
-  display: inline-block;
+  display: none;
   margin: 6px auto 0;
 }
 
