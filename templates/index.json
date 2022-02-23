@@ -179,7 +179,7 @@
         "title": "",
         "button_text": "",
         "button_link": "",
-        "stack_logos": true,
+        "stack_logos": false,
         "background": "#3e7b8f",
         "text_color": "#ffffff",
         "button_background": "rgba(0,0,0,0)",
