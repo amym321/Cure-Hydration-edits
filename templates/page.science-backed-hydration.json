@@ -177,7 +177,7 @@
         "638795ca-4410-42c9-aa15-c9997ecd906a": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_2x-100.jpg",
+            "image": "shopify:\/\/shop_images\/CoconutIngredient.jpg",
             "title": "Coconut Water",
             "content": "<p>Nature’s source of <strong>potassium<\/strong> (4x bananas and 8-10x sports drinks). Contains glucose, antioxidants, and other nutrients.  <\/p>"
           }
@@ -185,7 +185,7 @@
         "1f7ad01d-b8ac-4fcb-a722-3923e1de60ea": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_copy_2x-100.jpg",
+            "image": "shopify:\/\/shop_images\/SaltIngredient.jpg",
             "title": "Pink Himalayan Salt",
             "content": "<p>Nature's natural source of sodium, which is a major electrolyte and imperative for proper hydration. Pink Himalayan Salt is premium, unrefined and contains 72 trace minerals not found in table salt.  <\/p>"
           }
@@ -193,7 +193,7 @@
         "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_copy_2_2x-100.jpg",
+            "image": "shopify:\/\/shop_images\/Citric_AcidIngredient.jpg",
             "title": "Non-GMO Citric Acid",
             "content": "<p>Used for added flavor and naturally found in citrus fruits. <br\/>Ours is from cassava root. <\/p>"
           }
@@ -201,7 +201,7 @@
         "dab59078-1b8d-4d2b-93fe-8c0438b33b8a": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_2_copyingredients.jpg",
+            "image": "shopify:\/\/shop_images\/LemonIngredient.jpg",
             "title": "Lemon Juice Powder",
             "content": "<p>Made from real lemons.<br\/>Added for flavor.<\/p>"
           }
@@ -209,7 +209,7 @@
         "78196c00-1a31-4dca-b94e-d021b974523b": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_6ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Sodium_CitrateIngredient.jpg",
             "title": "Sodium Citrate",
             "content": "<p>Sodium from citric acid,<br\/>used for function.<\/p>"
           }
@@ -217,7 +217,7 @@
         "7ae44fb1-fa2a-4206-8714-dd75d976e31f": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_5ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/SteviaIngredient.jpg",
             "title": "Organic Stevia Extract",
             "content": "<p>Plant-based sweetener with no sugar or calories.<br\/>Despite the common misconception, stevia is not an artificial sweetener.<\/p>"
           }
@@ -225,7 +225,7 @@
         "072dc1f6-79e4-4023-a445-ab5f09de1af4": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_4ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Monk_FruitIngredient.jpg",
             "title": "Monk Fruit Extract",
             "content": "<p>A vine-ripened fruit native to Asia that helps round out the flavor<br\/>so that there is no bitter aftertaste.<\/p>"
           }
@@ -233,7 +233,7 @@
         "9f2b68b1-9048-4780-873e-c8258c49b2f3": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_7cure-ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Fruit_JuiceIngredient.jpg",
             "title": "Fruit Juice Powder & Organic Flavors",
             "content": "<p>Added for taste and preference, <br\/>so there is a delicious Cure flavor for everyone.<\/p>"
           }
