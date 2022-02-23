@@ -187,7 +187,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SaltIngredient.jpg",
             "title": "Pink Himalayan Salt",
-            "content": "<p>Nature's natural source of sodium, which is a major electrolyte and imperative for proper hydration. Pink Himalayan Salt is premium, unrefined and contains 72 trace minerals not found in table salt.  <\/p>"
+            "content": "<p>Nature's natural source of <strong>sodium<\/strong>, which is a major electrolyte and imperative for proper hydration. Pink Himalayan Salt is premium, unrefined and contains 72 trace minerals not found in table salt.    <\/p>"
           }
         },
         "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c": {
@@ -195,7 +195,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Citric_AcidIngredient.jpg",
             "title": "Non-GMO Citric Acid",
-            "content": "<p>Used for added flavor and naturally found in citrus fruits. <br\/>Ours is from cassava root. <\/p>"
+            "content": "<p>Used for added flavor and naturally found in citrus fruits. Ours is from cassava root. <\/p>"
           }
         },
         "dab59078-1b8d-4d2b-93fe-8c0438b33b8a": {
@@ -211,7 +211,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sodium_CitrateIngredient.jpg",
             "title": "Sodium Citrate",
-            "content": "<p>Sodium from citric acid,<br\/>used for function.<\/p>"
+            "content": "<p>Sodium from citric acid. Derived from cassava root. Used for function and balanced taste.  <\/p>"
           }
         },
         "7ae44fb1-fa2a-4206-8714-dd75d976e31f": {
@@ -219,7 +219,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SteviaIngredient.jpg",
             "title": "Organic Stevia Extract",
-            "content": "<p>Plant-based sweetener with no sugar or calories.<br\/>Despite the common misconception, stevia is not an artificial sweetener.<\/p>"
+            "content": "<p>Plant-based, organic sweetener with no sugar or calories. Despite the common misconception, stevia is not an artificial sweetener. Used with monk fruit so that there is no bitter aftertaste.  <\/p>"
           }
         },
         "072dc1f6-79e4-4023-a445-ab5f09de1af4": {
@@ -227,7 +227,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Monk_FruitIngredient.jpg",
             "title": "Monk Fruit Extract",
-            "content": "<p>A vine-ripened fruit native to Asia that helps round out the flavor<br\/>so that there is no bitter aftertaste.<\/p>"
+            "content": "<p>A vine-riped fruit native to Asia that helps round out the flavor. Used with organic stevia extract so that there is no bitter aftertaste.<\/p>"
           }
         },
         "9f2b68b1-9048-4780-873e-c8258c49b2f3": {
@@ -235,7 +235,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Fruit_JuiceIngredient.jpg",
             "title": "Fruit Juice Powder & Organic Flavors",
-            "content": "<p>Added for taste and preference, <br\/>so there is a delicious Cure flavor for everyone.<\/p>"
+            "content": "<p>Added for taste and preference, so there is a delicious Cure flavor for everyone. <\/p>"
           }
         }
       },
