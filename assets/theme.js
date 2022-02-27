@@ -4306,8 +4306,10 @@
         this.addEventListener("prev-next:prev", this.previous.bind(this));
         this.addEventListener("prev-next:next", this.next.bind(this));
         // added Tocca swiperight, swipeleft - am
-        this.addEventListener("swiperight", this.previous.bind(this));
-        this.addEventListener("swipeleft", this.next.bind(this));
+        if ( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+          this.addEventListener("swiperight", this.previous.bind(this));
+          this.addEventListener("swipeleft", this.next.bind(this));
+        }
         this.addEventListener("page-dots:changed", (event) => this.select(event.detail.index));
         if (Shopify.designMode) {
           this.addEventListener("shopify:block:select", (event) => {
