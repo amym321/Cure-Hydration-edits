@@ -33,7 +33,7 @@
     "1643044510f40a8515": {
       "type": "custom-image-text",
       "settings": {
-        "title": "You’re probably dehydrated. (It’s okay, 75% of Americans are, too.)",
+        "title": "You’re probably dehydrated. It’s okay, 75% of Americans are, too.",
         "image": "shopify:\/\/shop_images\/img.png",
         "title_left": "And water alone is not enough.",
         "content_left": "<p>We think the solution to dehydration is simply drinking more water, but science shows that staying hydrated often requires more than water alone. <br\/><br\/>Without essential electrolytes like sodium and potassium, we can’t replenish ourselves adequately from everyday life: exercise, travel, late nights or illness.<br\/><br\/>Replacing electrlytes is the key to hydration. And Cure makes it easy.<\/p>",
@@ -51,7 +51,7 @@
             "tab_label": "Science",
             "subheading": "",
             "title": "Backed by Science",
-            "content": "<p>Based on the World Health Organization’s gold standard of rehydration, known as Oral Rehydration Solution, each packet of Cure contains electrolytes and glucose to facilitate rapid hydration directly into your bloodstream. ORS is as effective as an IV drip, but drinkable.<\/p><p>Since its inception, ORS has saved over 50 million lives from severe dehydration around the world.<\/p>",
+            "content": "<p>Based on the World Health Organization’s gold standard of rehydration, known as Oral Rehydration Solution, each packet of Cure contains electrolytes and glucose to facilitate rapid hydration directly into your bloodstream. ORS is as effective as an IV drip, but way more convenient.<\/p><p>Since its inception, ORS has saved over 50 million lives from severe dehydration around the world.<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -82,7 +82,7 @@
             "tab_label": "",
             "subheading": "",
             "title": "Powered by Nature",
-            "content": "<p>Unlike the sugary, fluorescent-blue sports drinks from your past, Cure's Hydrating Electrolyte Mix was formulated for effective hydration without all the junk. Our plant-based formula has 4x the electrolytes of leading sports drinks and is made with real ingredients like coconut water and pink Himalayan salt. No added sugar or anything artificial, just natural fruit flavors you'll love to drink.<br\/><br\/>Science has never tasted this good.<\/p>",
+            "content": "<p>Unlike the sugary, fluorescent-blue sports drinks from your past, Cure's Hydrating Electrolyte Mix was formulated for effective hydration without all the junk. Our plant-based formula has 4x the electrolytes of leading sports drinks and is made with real ingredients like coconut water and pink Himalayan salt. No added sugar or anything artificial, just natural fruit flavors you'll love to drink.  Science has never tasted this good.<\/p>",
             "button_text": "",
             "button_link": ""
           }
@@ -177,31 +177,31 @@
         "638795ca-4410-42c9-aa15-c9997ecd906a": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/CoconutIngredient.jpg",
             "title": "Coconut Water",
-            "content": "<p>Nature’s source of <strong>potassium<\/strong> (4x bananas and 8-10x sports drinks).<br\/>Contains glucose, antioxidants, magnesium, calcium, and other nutrients. <\/p>"
+            "content": "<p>Nature’s source of <strong>potassium<\/strong> (4x bananas and 8-10x sports drinks). Contains glucose, antioxidants, and other nutrients.  <\/p>"
           }
         },
         "1f7ad01d-b8ac-4fcb-a722-3923e1de60ea": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_2ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/SaltIngredient.jpg",
             "title": "Pink Himalayan Salt",
-            "content": "<p>Nature’s natural source of <strong>sodium. <\/strong>Sodium is a major electrolyte, so don’t avoid it. <br\/>It is absolutely imperative for proper hydration.<\/p>"
+            "content": "<p>Nature's natural source of <strong>sodium<\/strong>, which is a major electrolyte and imperative for proper hydration. Pink Himalayan Salt is premium, unrefined and contains 72 trace minerals not found in table salt.    <\/p>"
           }
         },
         "c8e72aeb-e7fe-43b1-89eb-6560bf5b669c": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_8ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Citric_AcidIngredient.jpg",
             "title": "Non-GMO Citric Acid",
-            "content": "<p>Used for added flavor and naturally found in citrus fruits. <br\/>Ours is from cassava root. <\/p>"
+            "content": "<p>Used for added flavor and naturally found in citrus fruits. Ours is from cassava root. <\/p>"
           }
         },
         "dab59078-1b8d-4d2b-93fe-8c0438b33b8a": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_2_copyingredients.jpg",
+            "image": "shopify:\/\/shop_images\/LemonIngredient.jpg",
             "title": "Lemon Juice Powder",
             "content": "<p>Made from real lemons.<br\/>Added for flavor.<\/p>"
           }
@@ -209,33 +209,33 @@
         "78196c00-1a31-4dca-b94e-d021b974523b": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_6ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Sodium_CitrateIngredient.jpg",
             "title": "Sodium Citrate",
-            "content": "<p>Sodium from citric acid,<br\/>used for function.<\/p>"
+            "content": "<p>Sodium from citric acid. Derived from cassava root. Used for function and balanced taste.  <\/p>"
           }
         },
         "7ae44fb1-fa2a-4206-8714-dd75d976e31f": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_5ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/SteviaIngredient.jpg",
             "title": "Organic Stevia Extract",
-            "content": "<p>Plant-based sweetener with no sugar or calories.<br\/>Despite the common misconception, stevia is not an artificial sweetener.<\/p>"
+            "content": "<p>Plant-based, organic sweetener with no sugar or calories. Despite the common misconception, stevia is not an artificial sweetener. Used with monk fruit so that there is no bitter aftertaste.  <\/p>"
           }
         },
         "072dc1f6-79e4-4023-a445-ab5f09de1af4": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_4ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Monk_FruitIngredient.jpg",
             "title": "Monk Fruit Extract",
-            "content": "<p>A vine-ripened fruit native to Asia that helps round out the flavor<br\/>so that there is no bitter aftertaste.<\/p>"
+            "content": "<p>A vine-riped fruit native to Asia that helps round out the flavor. Used with organic stevia extract so that there is no bitter aftertaste.<\/p>"
           }
         },
         "9f2b68b1-9048-4780-873e-c8258c49b2f3": {
           "type": "ingredient",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_7cure-ingredients.jpg",
+            "image": "shopify:\/\/shop_images\/Fruit_JuiceIngredient.jpg",
             "title": "Fruit Juice Powder & Organic Flavors",
-            "content": "<p>Added for taste and preference, <br\/>so there is a delicious Cure flavor for everyone.<\/p>"
+            "content": "<p>Added for taste and preference, so there is a delicious Cure flavor for everyone. <\/p>"
           }
         }
       },
@@ -460,7 +460,7 @@
         "1642627495e9e5ab43-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cure-Comparisons-electrolyte-water.jpg",
+            "image": "shopify:\/\/shop_images\/Cure-Comparisons-Electrolytes.jpg",
             "caption": ""
           }
         },
@@ -526,24 +526,6 @@
         "overlay_opacity": 18
       }
     },
-    "1642627491015e6f99": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "What's your Flavor?",
-        "title": "Our Hydrating Electrolyte Mix comes in a variety of flavors to ensure there is a Cure for everyone.",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "left",
-        "text_alignment": "left",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "164262737339effc61": {
       "type": "featured-collections",
       "blocks": {
@@ -562,8 +544,8 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "",
-        "title2": "Collection 2 Heading",
+        "title": "What's Your Flavor?",
+        "title2": "",
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
@@ -590,7 +572,6 @@
     "16448910400c96333c",
     "1642627495a6d25ec8",
     "164262729411fab007",
-    "1642627491015e6f99",
     "164262737339effc61"
   ]
 }

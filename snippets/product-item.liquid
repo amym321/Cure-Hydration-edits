@@ -8,6 +8,16 @@
   	margin-top: 10px;
   }
   
+  .label--bestseller{
+    background-color: {{ settings.product_custom_label_bestseller_background }};
+    color: {{ settings.product_custom_label_bestseller_text }}
+  }
+  
+  .label--new-flavor{
+    background-color: {{ settings.product_custom_label_new_flavor_background }};
+    color: {{ settings.product_custom_label_new_flavor_text }}
+  }
+  
   </style>
 
 {%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
@@ -24,7 +34,7 @@
     {%- for tag in product.tags -%}
       {%- if tag contains '__label' -%}
   		<div class="custom-label-container">
-          <span class="label label--custom{% cycle 'label-group': '', '2' %}">{{ tag | split: ':' | last }}</span>
+          <span class="label label--custom{% cycle 'label-group': '', '2' %} {% if tag contains 'Best Seller' %}label--bestseller{% elsif tag contains 'Flavor' %}label--new-flavor{% endif %}">{{ tag | split: ':' | last }}</span>
         </div>
       {%- endif -%}
     {%- endfor -%}
@@ -75,9 +85,9 @@
     {%- if request.page_type != 'password' and settings.product_add_to_cart and product.available and reduced_content != true and show_cta != true -%}
       {%- if product.variants.size == 1 -%}
         {%- capture form_id -%}product_form_{{ section.id }}_{{ block.id }}_{{ product.id }}_{% increment product_form_index %}{%- endcapture -%}
-        {%- form 'product', product, is: 'product-form', id: form_id, class: 'product-item__quick-form' -%}
+        {%- form 'product', product, data-productid: product.id, is: 'product-form', id: form_id, class: 'product-item__quick-form' -%}
           <input type="hidden" name="quantity" value="1">
-          <input type="hidden" name="id" value="{{ product.first_available_variant.id }}">
+          <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.first_available_variant.id }}">
     <button is="loader-button" type="submit" class="button button--outline button--text button--full {% if section.settings.desktop_products_per_row >= 5 %}button--small{% endif %} hidden-touch">{{ 'collection.product.add_to_cart_short' | t }}  <span class="custom-atc-price">  -  {{ product.price | money }}</span></button>
           <button type="submit" class="product-item__quick-buy-button hidden-no-touch">
             <span class="visually-hidden">{{ 'collection.product.add_to_cart_short' | t }}  -  {{ product.price | money }}</span>
@@ -273,9 +283,9 @@
       <div class="product-item__cta-wrapper">
         {%- if product.variants.size == 1 -%}
           {%- capture form_id -%}product_form_{{ section.id }}_{{ block.id }}_{{ product.id }}_{% increment product_form_index %}{%- endcapture -%}
-          {%- form 'product', product, is: 'product-form', id: form_id -%}
+          {%- form 'product', product, data-productid: product.id, is: 'product-form', id: form_id -%}
             <input type="hidden" name="quantity" value="1">
-            <input type="hidden" name="id" value="{{ product.first_available_variant.id }}">
+            <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.first_available_variant.id }}">
             <button type="submit" {% if show_cta %}is="loader-button"{% endif %} class="{% if reduced_content %}product-item__link link text--subdued{% else %}product-item__cta button button--primary{% endif %}">{{ 'collection.product.add_to_cart_short' | t }}</button>
           {%- endform -%}
         {%- else -%}

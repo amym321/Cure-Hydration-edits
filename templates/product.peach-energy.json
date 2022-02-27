@@ -77,7 +77,7 @@
           "type": "content",
           "settings": {
             "title": "Description",
-            "content": "<p><strong>Named Best Hydrating Drink Mix by Women's Health<\/strong><\/p><p>+ Hydrating electrolyte drink mix made with organic & plant-based ingredients<\/p><p>+ Based on the World Health Organization’s ORS (Oral Rehydration Solution) which has been proven to hydrate as effectively as an IV drip<\/p><p>+ Replenishes electrolytes lost during exercise, illness, travel and alcohol consumption<\/p><p>+ 4x the electrolytes of leading sports drinks<\/p><p>+ No added sugar or artificial sweeteners<\/p><p>+ Made for everyone! Adults and children 1 or older<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.description | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -111,8 +111,8 @@
       "type": "custom-comparison-chart",
       "settings": {
         "section_height": "large",
-        "image": "shopify:\/\/shop_images\/Cure-Water.jpg",
-        "title": "Hydrating Electrolyte Mix",
+        "image": "shopify:\/\/shop_images\/peaches.jpg",
+        "title": "Us vs. Them",
         "content": "",
         "text_width": "medium",
         "text_position": "top_left",
@@ -120,30 +120,30 @@
         "chart_c1r2_label": "calories",
         "chart_c1r3_value": "0g",
         "chart_c1r3_label": "added sugar",
-        "chart_c1r4_label": "Perfectly balanced electrolytes and plant-based ingredients",
-        "chart_c2r1_value": "Sports Drinks",
-        "chart_c2r2_value": "112",
+        "chart_c1r4_label": "330mg electrolytes (potassium + sodium)",
+        "chart_c2r1_value": "Bottled Iced Tea",
+        "chart_c2r2_value": "80",
         "chart_c2r2_label": "calories",
-        "chart_c2r3_value": "27g",
+        "chart_c2r3_value": "20g",
         "chart_c2r3_label": "added sugar",
-        "chart_c2r4_label": "Added sugar, low in electrolytes, and made with artificial ingredients",
-        "chart_c3r1_value": "Coconut Water",
-        "chart_c3r2_value": "120",
+        "chart_c2r4_label": "No added functional benefits",
+        "chart_c3r1_value": "Energy Drink",
+        "chart_c3r2_value": "110",
         "chart_c3r2_label": "calories",
-        "chart_c3r3_value": "28g",
-        "chart_c3r3_label": "sugar",
-        "chart_c3r4_label": "Unbalanced electrolytes (low sodium, high sugar and potassium)",
-        "chart_c4r1_value": "Other Hydration Mixes",
-        "chart_c4r2_value": "45",
-        "chart_c4r2_label": "calories",
-        "chart_c4r3_value": "11g",
-        "chart_c4r3_label": "added sugar",
-        "chart_c4r4_label": "Synthetic ingredients and added sugars",
+        "chart_c3r3_value": "27g",
+        "chart_c3r3_label": "added sugar",
+        "chart_c3r4_label": "No added functional benefits",
+        "chart_c4r1_value": "",
+        "chart_c4r2_value": "",
+        "chart_c4r2_label": "",
+        "chart_c4r3_value": "",
+        "chart_c4r3_label": "",
+        "chart_c4r4_label": "",
         "chart_bottom_info": "Based on a 16oz serving",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
-        "overlay_color": "#3e7b8f",
+        "overlay_color": "#a96200",
         "overlay_opacity": 30
       }
     },
@@ -246,35 +246,22 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/211122_CL_Cure_01_Berry_064.jpg",
             "tab_label": "hydration",
-            "subheading": "",
-            "title": "Hydration is the foundation of health.",
-            "content": "<p>But science shows that staying hydrated often requires more than water alone. Without essential electrolytes like sodium and potassium, we can’t replenish ourselves adequately from everyday life: exercise, travel, late nights or illness.<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "d7f5f0c1-318d-4d99-8f0f-bd6344c37d77": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Science.gif",
-            "tab_label": "science",
-            "subheading": "",
-            "title": "That’s why we made Cure.",
-            "content": "<p>Based on the World Health Organization’s gold standard of rehydration, known as Oral Rehydration Solution, each packet contains electrolytes and glucose to facilitate rapid hydration directly into your bloodstream. <\/p><p><strong>ORS is as effective as an IV drip, but way more convenient.<\/strong> Plus, Cure’s plant-based formula has no added sugars, just natural fruit flavors you’ll love to drink. Science has never tasted this good.<\/p>",
+            "subheading": "Backed by Science.",
+            "title": "Powered by Nature.",
+            "content": "<p>Caffeine is our go-to source of energy, whether we’re starting our day, working out, or hitting that afternoon slump. But your caffeine should be doing more than just waking you up. <\/p><p>That’s why we used natural black tea with peach flavor to create a drink that’s smooth, uplifting, and simply delicious. We added an essential electrolyte mix of coconut water and pink Himalayan salt to add even more benefits to your glass. You won’t find added sugars or anything artificial in here—and you won’t miss them. Just delicious, plant-based ingredients so you can have the energy you need for everything you do.<\/p>",
             "button_text": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "16375385805a38c1aa-0",
-        "d7f5f0c1-318d-4d99-8f0f-bd6344c37d77"
+        "16375385805a38c1aa-0"
       ],
       "settings": {
         "reveal_on_scroll": false,
         "background_type": "full_width",
         "background_overlap": "image",
-        "image_position": "right",
+        "image_position": "left",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",

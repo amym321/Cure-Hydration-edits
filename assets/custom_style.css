@@ -8,7 +8,7 @@
 .our-values_items {
   border-top: 1px solid #eeebe6;
   padding-top: 30px;
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .our-values_item {
@@ -17,7 +17,7 @@
   padding-bottom:30px;
   border-bottom:1px solid #eeebe6;
 }
-.our-values_content h3.heading.h4 {
+.our-values_content h3.heading.h3 {
   margin-bottom: 15px;
 }
 .our-values_content {
@@ -82,7 +82,7 @@
   .custom-image-text--section-wrapper .section__header,
   .custom-image-text--section-wrapper .image_wrapper,
   .custom-image-text--section-wrapper .bottom_content_wrap{
-    max-width: 1170px;
+    max-width: 1570px;
     margin-left: calc(var(--grid-column-width) + var(--grid-gap));
     margin-right: calc(var(--grid-column-width) + var(--grid-gap));
   }  

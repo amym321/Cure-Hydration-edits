@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "07464fba-994a-4697-9fbd-5d54b884e9aa": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_mode": "dropdown",
+            "color_mode": "dropdown",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false
+          }
+        },
+        "62ab0f50-5902-4417-a014-9b1c060299c2": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "text": "",
+            "stretch": false,
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "07464fba-994a-4697-9fbd-5d54b884e9aa",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "62ab0f50-5902-4417-a014-9b1c060299c2"
+      ],
+      "settings": {
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "disabled": true,
+      "blocks": {
+        "52f2a197-b825-4dce-a6be-699f7ddb89af": {
+          "type": "featured_products",
+          "settings": {
+            "title": "You might also like...",
+            "product_1": "{{ product.metafields.my_fields.you_might_also_like_1.value }}",
+            "product_2": "{{ product.metafields.my_fields.you_might_also_like_2.value }}"
+          }
+        },
+        "07e00409-8a75-4778-85a7-da2c95564c01": {
+          "type": "content",
+          "settings": {
+            "title": "Description",
+            "content": "<p><strong>Named Best Hydrating Drink Mix by Women's Health<\/strong><\/p><p>+ Hydrating electrolyte drink mix made with organic & plant-based ingredients<\/p><p>+ Based on the World Health Organization’s ORS (Oral Rehydration Solution) which has been proven to hydrate as effectively as an IV drip<\/p><p>+ Replenishes electrolytes lost during exercise, illness, travel and alcohol consumption<\/p><p>+ 4x the electrolytes of leading sports drinks<\/p><p>+ No added sugar or artificial sweeteners<\/p><p>+ Made for everyone! Adults and children 1 or older<\/p>",
+            "page": ""
+          }
+        },
+        "cf3d2e2e-c92f-42e4-8881-672a479832ae": {
+          "type": "content",
+          "settings": {
+            "title": "Ingredients",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "397a5fc9-f60c-434f-8e35-ec31c1bddca9": {
+          "type": "content",
+          "settings": {
+            "title": "When to Take",
+            "content": "",
+            "page": "when-to-take"
+          }
+        }
+      },
+      "block_order": [
+        "52f2a197-b825-4dce-a6be-699f7ddb89af",
+        "07e00409-8a75-4778-85a7-da2c95564c01",
+        "cf3d2e2e-c92f-42e4-8881-672a479832ae",
+        "397a5fc9-f60c-434f-8e35-ec31c1bddca9"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content"
+  ]
+}
